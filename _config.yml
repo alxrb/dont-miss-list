@@ -1,0 +1,11 @@
+# Site settings
+title: dont-miss-list
+name: Don't Miss List
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam voluptatibus totam accusantium laborum quo dolore.
+baseurl: "/dont-miss-list" # the subpath of your site, e.g. /blog/
+url: "https://www.secretescapes.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, bower_components, bower.json, README.md]

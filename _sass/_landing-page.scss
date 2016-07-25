@@ -1,0 +1,22 @@
+.landing-page {
+  background-color: $dml-blue-light;
+}
+
+.header {
+  background-color: $dml-blue;
+  color: $white;
+  &__logo {
+    max-width: $medium;
+    margin-bottom: 2em;
+  }
+}
+
+// .article {
+//   padding: 2em;
+//   background-color: $white;
+//   &__title {
+//     letter-spacing: .02em;
+//     font-weight: 300;
+//     padding-bottom: 18px;
+//   }
+// }

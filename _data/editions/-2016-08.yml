@@ -1,0 +1,12 @@
+name: August 2016
+link: /2016/08
+offers:
+  - id: this-offer
+    title: amazing offer 08
+    price: 999999
+  - id: another-offer
+    title: save loads of money offer 08
+    price: 11111111
+  - id: whatever-offer
+    title: boring offer 08
+    price: 10101010

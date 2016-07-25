@@ -1,0 +1,11 @@
+{% assign offers = site.data.editions.[page.edition].offers %}
+
+{% for item in offers %}
+  {% if item.id == include.offer-id %}
+    <p>{{ item.id }}</p>
+    <h3>{{ item.title }}</h3>
+    <p><em>£{{ item.price }}</em></p>
+    <br>
+  {% endif %}
+{% endfor %}
+<br><br><br>

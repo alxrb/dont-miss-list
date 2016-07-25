@@ -1,0 +1,6 @@
+{% assign offers = site.data.editions.[page.edition].offers %}
+
+{% for item in offers %}
+  <h4>{{ item.title }} <span>{{ item.brand }}</span></h4>
+  {{ item.terms-and-conditions }}
+{% endfor %}

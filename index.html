@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>Don't Miss List</h1>
+<hr>
+
+<h2>list of editions</h2>
+<ul>
+  {% for edition-array in site.data.editions reversed %}
+  {% assign edition = edition-array[1] %}
+    <li>
+      <h3><a href="{{ site.baseurl }}{{ edition.link }}">{{ edition.name }}</a></h3>
+      <p>{{ edition.description }}</p>
+    </li>
+  {% endfor %}
+</ul>

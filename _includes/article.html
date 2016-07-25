@@ -1,0 +1,22 @@
+{% assign edition = page.edition %}
+{% assign articles = site.data.editions.[page.edition].articles %}
+
+{% for item in articles %}
+  {% if item.id == include.article-id %}
+
+  <div class="article row row--columns-4-8-gutters row--columns-vertical-align">
+    <div class="row__column">
+      <a href="{{ item.link }}">
+        <div class="bg-image-ratio bg-image-ratio--3-2" style="background-image: url('{{ site.baseurl }}/img/edition/{{ edition }}/email/article-{{ item.id }}.jpg')"></div>
+      </a>
+    </div>
+    <div class="row__column">
+      <h3 class="article__title">{{ item.title }}</h3>
+      <div>
+        <a class="btn btn--light" href="{{ item.link }}">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  {% endif %}
+{% endfor %}

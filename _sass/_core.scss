@@ -1,0 +1,143 @@
+// global variables & useful tools
+
+
+// -------- colors --------
+
+$white:       #fff;
+$black:       #000;
+$light-grey:  #f2f2f2;
+$text-black:  #384f51;
+
+$se-orange:       #ff8c00;
+$dml-blue:        #3bc3cf;
+$dml-blue-light:  #e9f1f2;
+
+// -------- breakpoints --------
+
+$xxlarge: 970px;
+$xlarge:  850px;
+$large:   650px;
+$medium:  450px;
+$small:   300px;
+
+@mixin bp($width){
+  @if $width == xxlarge {
+    @media (min-width:$xxlarge) {@content;}
+  }
+  @if $width == xlarge {
+    @media (min-width:$xlarge) {@content;}
+  }
+  @if $width == large {
+    @media (min-width:$large) {@content;}
+  }
+  @if $width == medium {
+    @media (min-width:$medium) {@content;}
+  }
+  @if $width == small {
+    @media (min-width:$small) {@content;}
+  }
+}
+
+// vertical breakpoint for small screen mobile
+@mixin bp-vertical {
+  @media (max-height:$medium) and (max-width:$large) { @content; }
+}
+
+
+// -------- global box-sizing & font smoothing --------
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+// -------- responsive images --------
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.js-svg-swap {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+// -------- text link style --------
+
+a {
+  color: inherit;
+  text-decoration:none;
+  &:hover { text-decoration: underline; }
+}
+
+
+// -------- enable 100% height --------
+
+body, html { height: 100%; }
+
+
+// -------- general transition --------
+
+$transition-time: .25s;
+@mixin transition() { transition: all $transition-time ease; }
+
+
+// -------- clearfix --------
+
+@mixin clearfix() {
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+
+// -------- accessible hiding --------
+
+.hidden {
+  position: absolute;
+  left: -9999em;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+// -------- z-index values --------
+
+$z-overlay-upper:   20;
+$z-overlay:         10;
+$z-content-upper:   5;
+$z-content:         0;
+$z-background:      -1;
+
+
+// -------- background image ratios --------
+
+.bg-image-ratio {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+  }
+}
+.bg-image-ratio--1-1:before   { padding-top: 100%; }
+.bg-image-ratio--4-3:before   { padding-top: 75%; }
+.bg-image-ratio--3-2:before   { padding-top: 66.666666666667%; }
+.bg-image-ratio--16-9:before  { padding-top: 56.25%; }
+.bg-image-ratio--21-9:before  { padding-top: 42.8571429%; }

@@ -1,0 +1,12 @@
+name: July 2016
+link: /2016/07
+offers:
+  - id: this-offer
+    title: amazing offer
+    price: 999999
+  - id: another-offer
+    title: save loads of money offer
+    price: 11111111
+  - id: whatever-offer
+    title: boring offer
+    price: 10101010

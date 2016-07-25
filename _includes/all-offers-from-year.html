@@ -1,0 +1,6 @@
+{% assign offers = site.data.editions.[page.edition].offers %}
+
+{% for item in offers %}
+  <p>{{ item.id }} - <strong>{{ item.title }}</strong> - £{{ item.price }}</p>
+{% endfor %}
+<br><br>
