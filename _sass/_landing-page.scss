@@ -1,22 +1,46 @@
-.landing-page {
-  background-color: $dml-blue-light;
-}
-
-.header {
-  background-color: $dml-blue;
+.offer {
+  list-style-type: none !important;
+  background-color: $dml-blue-darkest;
   color: $white;
-  &__logo {
-    max-width: $medium;
-    margin-bottom: 2em;
+  @include transition;
+  &.is-open {
+    color: $text-black;
+    background-color: $white;
+  }
+  &__title {
+    font-size: 1.728em;
+    line-height: 1.25;
+  }
+  &__view-btn {
+
+  }
+  &__thumbnail {
+    display: inline-block;
+    max-width: $small;
+  }
+  &__pre-expand,
+  &__expand {
+    padding: 2.488em 2em;
+  }
+  &__pre-expand-content {
+    z-index: $z-content-upper;
+  }
+  &__pre-expand-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    opacity: .33;
+    background-position: center;
+    background-size: cover;
+  }
+  &__expand {
+
+  }
+  &__terms-and-conditions {
+    font-size: .8em;
+    color: $dml-gray;
   }
 }
-
-// .article {
-//   padding: 2em;
-//   background-color: $white;
-//   &__title {
-//     letter-spacing: .02em;
-//     font-weight: 300;
-//     padding-bottom: 18px;
-//   }
-// }
