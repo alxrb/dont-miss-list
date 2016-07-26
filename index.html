@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<h1>Don't Miss List</h1>
-<hr>
-
-<h2>list of editions</h2>
-<ul>
-  {% for edition-array in site.data.editions reversed %}
-  {% assign edition = edition-array[1] %}
-    <li>
-      <h3><a href="{{ site.baseurl }}{{ edition.link }}">{{ edition.name }}</a></h3>
-      <p>{{ edition.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<section class="section">
+  <ul class="row">
+    {% for edition-array in site.data.editions reversed %}
+    {% assign edition = edition-array[1] %}
+      <li class="edition">
+        <h3><a class="edition__link" href="{{ site.baseurl }}{{ edition.link }}">{{ edition.name }}</a></h3>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

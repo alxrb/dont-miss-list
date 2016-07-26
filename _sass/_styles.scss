@@ -28,6 +28,30 @@ hr {
   height: 1px;
 }
 
+.edition {
+  max-width: $large;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none !important;
+  @include box-shadow;
+  & + & {
+    margin-top: 1em;
+  }
+  &__link {
+    display: block;
+    padding: 1em 2em;
+    background-color: $white;
+    @include transition;
+    &:hover {
+      padding-top: 1.2em;
+      padding-bottom: 1.2em;
+      color: $white;
+      background-color: $dml-blue;
+      text-decoration: none;
+    }
+  }
+}
+
 // ---------- button ----------
 
 .btn {
