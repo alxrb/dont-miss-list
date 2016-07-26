@@ -9,3 +9,16 @@ url: "https://www.secretescapes.com" # the base hostname & protocol for your sit
 # Build settings
 markdown: kramdown
 exclude: [node_modules, gulpfile.js, package.json, bower_components, bower.json, README.md]
+
+
+defaults:
+  -
+    scope:
+      path: "2016"
+    values:
+      layout: "landing-page"
+  -
+    scope:
+      path: "2017"
+    values:
+      layout: "landing-page"

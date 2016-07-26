@@ -1,28 +1,7 @@
-<!-- <header class="site-header">
+<div class="section site-header">
   <div class="row row--padding">
-
-    <div class="mobile-icon mobile-icon__menu js-mobile-menu-open row--margin"></div>
-
-    <a href="https://www.secretescapes.com/"><img class="site-header__logo site-header__logo--secret-escapes js-svg-swap" src="{{ site.baseurl }}/img/logo/secret-escapes.png" alt="Secret Escapes logo"></a>
-
-    <nav class="site-header__nav mobile-menu">
-      <div class="site-header__nav-item mobile-icon mobile-icon__close js-mobile-menu-close"></div>
-      <ul class="site-header__nav-list">
-        <li class="site-header__nav-item"><a class="site-header__nav-link" href="https://www.secretescapes.com/current-sales">Current Sales</a></li>
-        <li class="site-header__nav-item"><a class="site-header__nav-link" href="https://www.secretescapes.com/smartstays/filter">Smart Stays</a></li>
-        <li class="site-header__nav-item"><a class="site-header__nav-link" href="https://www.secretescapes.com/spa">Spa</a></li>
-        <li class="site-header__nav-item"><a class="site-header__nav-link" href="https://www.secretescapes.com/vouchers-offer">Gift Vouchers</a></li>
-        <li class="site-header__nav-item"><a class="site-header__nav-link site-header__nav-link--current" href="{{ site.baseurl }}">{{ site.title }}</a></li>
-      </ul>
-    </nav>
-
+    <div class="site-header__logo">
+      <a href="{{site.baseurl}}"><img src="{{site.baseurl}}/img/logo/dont-miss-list.png" alt="Dont Miss List logo"></a>
+    </div>
   </div>
-</header>
-
-<div class="row">
-  <div class="microsite-nav">
-    <ul class="microsite-nav__list">
-      {% assign nav-order = site.pages | sort:"nav-order" %}{% for page in nav-order %}{% if page.title %}<li class="microsite-nav__item microsite-nav__item--{{ page.class }}"><a class="microsite-nav__link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
-    </ul>
-  </div>
-</div> -->
+</div>
