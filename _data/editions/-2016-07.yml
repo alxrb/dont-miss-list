@@ -1,12 +1,163 @@
 name: July 2016
 link: /2016/07
+subject-line: Experience more this summer
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+articles:
+  - id: dining
+    title: Dining etiquette around the world
+    link: http://blog.secretescapes.com/2016/02/17/world-eats-dining-dos-donts/
+  - id: pools
+    title: The world’s most beautiful infinity pools
+    link: http://blog.secretescapes.com/2014/06/18/worlds-beautiful-infinity-pools/
 offers:
-  - id: this-offer
-    title: amazing offer
-    price: 999999
-  - id: another-offer
-    title: save loads of money offer
-    price: 11111111
-  - id: whatever-offer
-    title: boring offer
-    price: 10101010
+  - id: simply-cook
+    brand: SimplyCook
+    title: Travel round the world in 50 dishes with SimplyCook
+    short-copy: If you have longed to bring the tastes and flavours of your holidays home to your kitchen, let us introduce you to our friends at SimplyCook with a recipe box with kits to cook 4 delicious meals for just £1
+    long-copy: >
+      <p>If you have longed to bring the tastes and flavours of your holidays home to your kitchen, let us introduce you to our friends at SimplyCook. Their chef­ designed recipe kits are your passport to recreate 50 of the most delicious dishes from around the world. Let’s travel round the continents to find culinary inspiration:</p>
+      <p>Asia ­ will you cook the fragrant chicken and noodles of a Malaysian Laksa or serve up the richness of a Chinese Spiced Duck Salad with unique five spice blend</p>
+      <p>Africa ­ travel to Morocco and enjoy Chicken Tagine in spicy tomato and chickpea sauce with apricots or dive into a West African Peanut Stew with deep flavours of cocoa, smoky chilli, cinnamon, cloves and oregano</p>
+      <p>Middle East ­ create an Iranian Vegetable Stew packed with potatoes, butternut squash, tomatoes and spinach or warm and aromatic Lebanese Lamb with pilaf rice and fresh mint. Europe ­ closer to home, make a beautiful Spanish Paella with saffron, paprika, turmeric and parsley or a deep and creamy Wild Mushroom Penne</p>
+      <p>Using a SimplyCook recipe kit and the step by step instruction card, chefs of all abilities can cook now cook these dishes and many more in just 20 minutes. And you can choose from the whole range which includes vegetarian, gluten free and low calorie options</p>
+      <p>Just add a few fresh ingredients from your fridge to the unique spice and flavour pots contained in each recipe kit and get ready for the tastiest journey you have ever been on!</p>
+
+      <h4>Tried, tested and recommended by Secret Escapes</h4>
+      <p>here in the Secret Escapes office we had the opportunity to tryout the recipe boxes for ourselves.  From Mushroom Penne to Balinese Chicken we turned our ordinary week night dinners in to culinary delights that could have come from a top michelin star restaurant (even if we do say so ourselves). Like many of us after a long day at work the last thing on our minds is to spend hours in the kitchen whipping up a masterpiece. But the recipe card make it easy and quick to make gorgeous foolproof meals.</p>
+      <p><strong>Secret Escapes Members can try their first SimplyCook recipe box with kits to cook 4 delicious meals for just £1.00 (inc P&amp;P), a saving of £7.99 on the standard price. Visit <a href="www.simplycook.com/secretescapes?utm_source=Partnership&amp;utm_medium=secretescapes&amp;utm_campaign=aug1web&amp;KW=60046&amp;KW_FREQUENCY=2">simplycook.com</a>, choose from Discovery, Vegetarian, Gluten Free &amp; Light options and claim your £1.00 Simply Cook box today.</strong></p>
+    link: http://www.simplycook.com/secretescapes?utm_source=Partnership&utm_medium=secretescapes&utm_campaign=aug1web&KW=60046&KW_FREQUENCY=2
+    email-link: http://www.simplycook.com/secretescapes?utm_source=Partnership&utm_medium=secretescapes&utm_campaign=july28email&KW=60045&KW_FREQUENCY=2
+    custom-cta: Get Cooking
+    terms-and-conditions: >
+      <ol>
+      <li>This offer is only valid for new SimplyCook customers, existing customers do not qualify </li>
+      <li>Only one voucher can be used per customer</li>
+      <li>This offer and voucher cannot be used in conjunction with any other offer and the voucher is only redeemable through the SimplyCook website at www.simplycook.com
+      <ol><li>SimplyCook only ship to addresses with UK postcodes</li>
+      <li>Valid debit or credit card details are required and you will be charged £1.00 for your SimplyCook trial box</li>
+      <li>Future boxes will be charged at £8.99 (inc P&amp;P) but there is no commitment to buy from SimplyCook again, you can change your preferences online, by email or by phone anytime. </li></ol></li>
+      <li>SimplyCook reserve the right to reject the use of vouchers if we have reason to suspect these Terms have been breached. Link for email</li>
+      </ol>
+  - id: mamma-mia
+    brand: Mamma Mia!
+    title: Experience Love on a Greek paradise
+    short-copy: Treat yourself to the time of your life this summer with MAMMA MIA!, the feel-good tale of love and friendship that's set on a sun drenched Greek island paradise.
+    long-copy: >
+      <p>Treat yourself to the time of your life this summer with MAMMA MIA!, the feel-good tale of love and friendship that's set on a sun drenched Greek island paradise.</p>
+      <p>Since premiering in London over 17 years ago, this irresistibly sunny, funny tale, packed with over 20 of ABBA’s timeless songs, has thrilled over 60 million people all around the world. There's never been a better time to see this unforgettable musical in the West End, where it all began.</p>
+      <p>Fun is the name of the game, so join us at MAMMA MIA! and soak up that holiday feeling at the world's most exhilarating smash-hit musical.</p>
+    link: https://secretescapes.ltdtickets.com/booking/Mamma-Mia---Secret-Escapes-Exclusive-tickets-at-the-Novello-Theatre-in-September-2016?eventId=2209&month=1/9/2016&nbTickets=2
+    terms-and-conditions: >
+      <p>Discounted theatre tickets are available for many London theatre performances. Our direct relationships with the theatre owners, producers and marketing companies means we can offer discount theatre tickets, cheap theatre tickets and many shows with no booking fees across a range of dates and genres. Be sure to only buy London theatre tickets from official sources such as London Theatre Direct. Tickets are subject to theatre availability full booking T&amp;Cs here- <a href="https://www.londontheatredirect.com/Terms.aspx">https://www.londontheatredirect.com/Terms.aspx</a></p>
+  - id: the-bodyguard
+    brand: The Bodyguard
+    title: NEED TITLE FOR THE BODYGUARD
+    short-copy: The award-winning musical based on the smash-hit film, returns to London for a strictly limited season starring the Queen of British Soul Beverley Knight as Rachel Marron and Ben Richards as Frank Farmer.
+    long-copy: >
+      <p>THE BODYGUARD, the award-winning musical based on the smash-hit film, returns to London for a strictly limited season starring the Queen of British Soul BEVERLEY KNIGHT as Rachel Marron and BEN RICHARDS as Frank Farmer.</p>
+      <p>A ‘BRILLIANT!’ (The Times), breathtakingly romantic thriller, THE BODYGUARD features a whole host of Whitney Houston's greatest hits including Queen of the Night, So Emotional, One Moment in Time,Saving All My Love, Run to You, I Have Nothing, Greatest Love Of All, Million Dollar Bill, I Wanna Dance With Somebody and one of the greatest hit songs of all time – I Will Always Love You.</p>
+    link: https://secretescapes.ltdtickets.com/musical/2428/The-Bodyguard---Secret-Escapes-Promotion-tickets.aspx
+    terms-and-conditions: >
+      <p>Discounted theatre tickets are available for many London theatre performances. Our direct relationships with the theatre owners, producers and marketing companies means we can offer discount theatre tickets, cheap theatre tickets and many shows with no booking fees across a range of dates and genres. Be sure to only buy London theatre tickets from official sources such as London Theatre Direct. Tickets are subject to theatre availability full booking T&amp;Cs here- <a href="https://www.londontheatredirect.com/Terms.aspx">https://www.londontheatredirect.com/Terms.aspx</a></p>
+  - id: bob-books
+    brand: Bob Books
+    title: Transform your travel photographs into professional, printed books.
+    short-copy: Looking for something special to do with your holiday photographs? Create your very own personalised photo book- an object you will treasure forever. Make yours with £10 off now! Simply enter the code ESCAPESTEN at the checkout. Make your book. Tell your story.
+    long-copy: >
+      <p>Bob Books is the most well-loved and trusted platforms for creating and printing photo books. Creating a photo book couldn’t be simpler. All you need is a moment of inspiration.</p>
+      <p>Secret Escapes have teamed up with Bob Books to give you a special gift. Create your very own customised photo book with £10 off and turn your best holiday photographs into a book you will treasure forever. </p>
+      <p>Simply enter the code ESCAPESTEN at the checkout and receive £10 off any photo book! No minimum spend and prices start at only £14.99.</p>
+      <p>To get started download our free Bob Designer software, or choose from many other creation tools including an iPad app, PDF to book or you can even sit back, relax and use our design service.</p>
+      <p>Not only are Bob Books the leading supplier of photographic paper photo books in the UK but we also offer:</p>
+      <ul>
+        <li>Premium quality printing</li>
+        <li>Award winning website</li>
+        <li>100% satisfaction guaranteed</li>
+        <li>UK based customer service team</li>
+      </ul>
+      <p>Choose from a variety of sizes, paper types and finishes and both digital and photographic printing. Prices start from only £14.99.</p>
+      <p><strong>Make your book. Tell your story.</strong></p>
+    link: https://www.bobbooks.co.uk/secret
+    terms-and-conditions: >
+      <p>*Discount code ESCAPESTEN must be entered during checkout to receive £10 off your photo book order. Offer valid on photo books only. Single use only. Not valid on presentation boxes, P&P, Design Service costs, gift vouchers or Bob Bookshop orders. Expires 31/01/2017 * Please allow 10–12 working days for production and delivery of Photographic paper products and large format books. Delivery times for locations outside of the UK will be longer. * Cannot be combined with any other offer and cannot be applied retrospectively.</p>
+  - id: virgin-wines
+    brand: Virgin Wines
+    title: Explore the world of wine with 12 bottles for just £3.99 each
+    short-copy: Virgin Wines are delighted to offer Secret Escapes members an unbeatable offer on a selection of 12 boutique wines from around the world. You can save £79 on the ultimate 12-bottle case - yours for only £47.88!
+    long-copy: >
+      <p>Virgin Wines are delighted to offer Secret Escapes members an unbeatable offer on a selection of 12 boutique wines from around the world. You can save £79 on the ultimate 12-bottle case - yours for only £47.88! Explore tastes from all corners of the world, our favourites include -  </p>
+      <h4>Finca Manzanos Seleccion de la Familia Rioja Blanco</h4>
+      <p>For those who have not tried white Rioja - you are in for a treat! Hand-crafted and with a combination of flavour profiles that are simply genius, this wine shines a bright yellow, with hints of gold and an explosive apricot nose! Its character is rounded, at once fresh. You'll find grapefruit, soft pear, honeysuckle and almond notes in this beauty, with a lingering finish of stone fruit... heavenly!</p>
+      <h4>The Black Pig Single Vineyard Sauvignon Blanc</h4>
+      <p>An extravagant Aussie Sauvignon which delivers all the racy, summer-fresh intensity you could wish for. There's a ripe, mouth-coating structure alongside crisp, gooseberry fruit to boot. Originating from a cool, cool region in Australia (Adelaide Hills) with cool, cool fruit to match, this delightfully clean Sauv Blanc gives the Kiwis a good run for their money!</p>
+      <h4>Gran Villa Gran Reserva</h4>
+      <p>Gran Villa offers everything and more that you could possibly want out of a Spanish Gran Reserva. Vibrant, cherry red in the glass and an elegant finish that is simply irresistible, this stunning decade-aged red is simply bursting with black-fruit on the nose and palate. Delicious on its own or served alongside a slow cooked roast, lovers of silky, fully mature European classics take note!</p>
+      <h4>Seppelt The Victorians Shiraz Cabernet Sauvignon</h4>
+      <p>This velvety smooth red is a classic example of what you can expect from an Australian Shiraz Cabernet, and is ideal as a match for rich, flavour packed dishes. This special wine has been sourced from carefully selected vineyards for a perfect balance between power and elegance and is jam-packed with loads of varietal character. Strong, juicy plum flavours abound with plenty of structure and length in this fantastic fruit filled wine.</p>
+    link: #NEEED LINK FOR VIRGIN WINES
+    terms-and-conditions: >
+      #NEEED TERMS AND CONDITIONS FOR VIRGIN WINES
+  - id: little-black-dress
+    brand: Little Black Dress
+    title: You’ve saved on your trip, now it’s time to treat yourself and save on your holiday wardrobe
+    short-copy: Whatever your destination this summer minimise your holiday prep and let Little Black Dress do the work, with their super-chic selection of summer holiday dresses. Enter code SECRETLBD to save an extra 15% exclusive to SE members.
+    long-copy: >
+      <p>You’ve saved on your trip, now it’s time to treat yourself and save on your holiday wardrobe with an exclusive 15% off Little Black Dress. Plus a chance to WIN your dream holiday basket!</p>
+      <p>Shop the most sought-after and stylish trends of the season easily with Little Black Dress' carefully curated collections. Choose from this summer's prettiest pastels, to bold florals and cocktail chic LBDs or dreamy evening gowns, you can now shop all our unique, gorgeous dresses by your favourite trends!</p>
+      <p>LBD stock over 50 brands including a range of high street, boutique and designer – plus Alesha Dixon’s debut collection! With free delivery you can take the hassle out of planning your holiday wardrobe with this collection of dresses perfect for any destination. Don’t forget to pack a little black dress for effortless holiday dress style, and with our range of summery dresses in colourful prints you’ll make those heads turn from day-to-night.</p>
+      <p>Turn the heat up this summer in a stylish season staple dress from Team LBD’s summer dress selection. From short and chic dresses in the latest monochrome and digital print trends, to fabulous flowing maxis, which make the perfect holiday dress, you’ll ooze summer style in something from this collection. Happy hols!</p>
+      <p><strong>Plus  1 in every 100 customers will WIN their dream holiday basket! To enter simply purchase something from LBDs three holiday style categories Beach, Cruise or City Break! Winners will be  announced at  end of month</strong></p>
+    link: http://www.littleblackdress.co.uk/holiday-secret-escapes
+    terms-and-conditions: >
+      <p>Get 15% off our Holiday Shop</p>
+      <ul>
+        <li>15% off any product from the holiday shop (beach, cruise or city break pages) – as some products are already discounted, this means customers can get up to 75% off</li>
+        <li>Includes unique boutique, designer and high street names (including Alesha Dixon)</li>
+        <li>Limited time only, while stocks last</li>
+        <li>Enter email address in pop-up to receive the discount code <a href="http://www.littleblackdress.co.uk/delivery">http://www.littleblackdress.co.uk/delivery</a></li>
+      </ul>
+  - id: citrus-holidays
+    brand: Citrus Holidays
+    title: Trip of a lifetime to explore Kerala India
+    short-copy: Citrus Holidays want to take you on an exclusive 10 night tour of Kerala India. Experience the best of what this area has to offer explore the dynamic city, take a tours of the best local sights and best of all stay meters away from the animals in the Periyar Sanctuary.
+    long-copy: >
+      <p>Citrus Holidays want to take you on an exclusive 10 night tour of Kerala India.  Experience the best of what this area has to offer explore the dynamic city, take a tours of the best local sights and best of all stay meters away from the animals in the Periyar Sanctuary. All is taken care of all your travel with return international flights from the UK and your itinerary includes:</p>
+      <ul>
+        <li>Two nights stay in Kochi with the opportunity to explore Kerala’s dynamic city</li>
+        <li>Two nights stay in  Munnar with a tour of the tea and spice plantation</li>
+        <li>Free upgrade to a Valley View Room in Munnar</li>
+        <li>Two nights stay exploring Thekkady, the gateway into the Periyar Sanctuary</li>
+        <li>Your visit includes the unforgettable opportunity to see wildlife by boat </li>
+        <li>Enjoy the memorable experience of a elephant ride with beautiful views </li>
+        <li>Discover the dances of the Kathakali and martial arts of the Kalaripayattu   </li>
+        <li>Set out in Agatha Christie style on an air-conditioned houseboat for one-night</li>
+        <li>Invaders of the backwaters will be wined and dined on board with all three meals and one free bottle of wine</li>
+        <li>One hour boat ride across Poover Lake along estuaries, mangroves and beaches</li>
+        <li>Three nights stay in Poovar and one full body Ayurvedic massage</li>
+      </ul>
+      <p>This once in a lifetime experience also includes</p>
+      <ul>
+        <li>Free Upgrade to a Heritage Room in Poovar</li>
+        <li>Sightseeing &amp; transfers by a private air conditioned Sedan car   </li>
+        <li>For certain excursions, the services of an English speaking local guide will be available</li>
+        <li>Benefit from the expertise of an English speaking chauffeur throughout the trip and during - selected excursions  </li>
+        <li>Applicable entrances and camera charges for monuments and sightseeing places</li>
+        <li>Breakfast and dinner included with each hotel stay</li>
+        <li>Quench your thirst with a one mineral water bottle per person each day</li>
+      </ul>
+    link: http://www.citrusholidays.com/tour.php?tourid=7d2352e609313eafb886d94809c8215c
+    terms-and-conditions: >
+      #NEEED TERMS AND CONDITIONS FOR CITRUS HOLIDAYS
+  - id: itb-hot-air-ballooning
+    brand: IntotheBlue - Hot Air Ballooning
+    title: You don’t have to leave the UK to try something new
+    short-copy: Your adventure this summer can be as extreme or as gentle as you like. IntotheBlue gives you the chance to make the most of all that fresh air and warm weather. From hot air balloon rides to tours of our favourite cities get 10% off with promo code ITBSECRET10
+    long-copy: >
+      <p>Do you know someone who's glued to their iPad? Does all sensible conversation stop as soon as the telly goes on at your house? We know how you feel and that's why IntotheBlue’s experienced team of researchers scoured the length and breadth of the UK to collect the very best days out you could wish for. The range is most definitely eclectic, but does mean there will be something to suit all tastes, budgets and desires.</p>
+      <p>Active types are spoilt for choice in this section with plenty of high-altitude thrills on offer, including tackling obstacle courses high up in the trees, throwing yourself off a platform 160ft above the ground with nothing but a length of (admittedly very strong) elastic cable attached to your ankles. If all that sounds too much, but you still want to be outside, how about touring the very lovely Oxford on a bike? It's a great way to combine sightseeing with gentle exercise as you burn off a few calories pedalling. </p>
+      <p>When you think of flying, you immediately think of an aeroplane. And whilst IntotheBlue have lessons in light aircraft at aerodromes and airports in every corner of the UK, aerial experiences don't necessarily mean sitting in a plane. For starters, you could end up actually stand on the wing of one. Of course, you'll be firmly strapped in, but we still think you need to be just a little bit mad to do wing walking, but we have to say it's a firm favourite with daredevil IntotheBlue customers!</p>
+      <p>Animal lovers are good stead too with a whole spectrum of experiences where you can walk with wolves, fly magnificent raptors, herd sheep with a Collie dog, or even make a change by adopting an animal who desperately needs your help to survive in the wild or in captivity.</p>
+      <p>Just writing about these great activities has left us exhausted, enjoy now with an exclusive 10% off  with promo code ITBSECRET10 intheblue.co.uk</p>
+    link: https://www.intotheblue.co.uk/flying-experiences/ballooning/balloon-flights/weekday-balloon-trips/
+    terms-and-conditions: >
+      <p>The exclusive ITBSECRET10 promo-code is valid until 11th August - and will give members 10% off gift experiences up to £250.00 (apart from the excluded <a href="https://www.intotheblue.co.uk/non-discountable-products/">non-discountable products</a>). For full Terms and Conditions please visit <a href="https://www.intotheblue.co.uk/terms-conditions/#divtAndC">https://www.intotheblue.co.uk/terms-conditions/#divtAndC</a></p>
