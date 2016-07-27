@@ -1,5 +1,6 @@
 {% assign edition = page.edition %}
 {% assign offers = site.data.editions.[page.edition].offers %}
+{% assign edition-link = site.data.editions.[page.edition].link %}
 
 <!-- 2 COL OFFERS -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -16,7 +17,7 @@
         <!-- OFFER IMAGE -->
         <tr>
           <td>
-            <a href="{{ item.link }}"><img class="img-max" width="288" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
+            <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ site.url }}{{ site.baseurl }}{{ edition-link }}/?offer-id={{ item.id }} {% endif %}"><img class="img-max" width="288" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
           </td>
         </tr>
         <!-- OFFER CONTENT WRAP -->
@@ -32,13 +33,13 @@
               <!-- OFFER COPY -->
               <tr>
                 <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 13px; line-height: 18px; letter-spacing: .025em; padding-bottom: 18px;">
-                  {{ item.description }}
+                  {{ item.short-copy }}
                 </td>
               </tr>
               <!-- OFFER BUTTON -->
               <tr>
                 <td align="center">
-                  <a href="{{ item.link }}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 12px; letter-spacing: .2em; font-weight: 700; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 53px solid #3bc3cf; border-right: 53px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
+                  <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ site.url }}{{ site.baseurl }}{{ edition-link }}/?offer-id={{ item.id }} {% endif %}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 12px; letter-spacing: .2em; font-weight: 700; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 53px solid #3bc3cf; border-right: 53px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
                     {% if item.custom-cta %}
                       {{ item.custom-cta }}
                     {% else %}
@@ -60,7 +61,7 @@
           <!-- OFFER IMAGE -->
           <tr>
             <td>
-              <a href="{{ item.link }}"><img class="img-max" width="288" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
+              <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ site.url }}{{ site.baseurl }}{{ edition-link }}/?offer-id={{ item.id }} {% endif %}"><img class="img-max" width="288" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
             </td>
           </tr>
           <!-- OFFER CONTENT WRAP -->
@@ -76,13 +77,13 @@
                 <!-- OFFER COPY -->
                 <tr>
                   <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 13px; line-height: 18px; letter-spacing: .025em; padding-bottom: 18px;">
-                    {{ item.description }}
+                    {{ item.short-copy }}
                   </td>
                 </tr>
                 <!-- OFFER BUTTON -->
                 <tr>
                   <td align="center">
-                    <a href="{{ item.link }}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 12px; letter-spacing: .2em; font-weight: 700; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 53px solid #3bc3cf; border-right: 53px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
+                    <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ site.url }}{{ site.baseurl }}{{ edition-link }}/?offer-id={{ item.id }} {% endif %}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 12px; letter-spacing: .2em; font-weight: 700; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 53px solid #3bc3cf; border-right: 53px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
                       {% if item.custom-cta %}
                         {{ item.custom-cta }}
                       {% else %}

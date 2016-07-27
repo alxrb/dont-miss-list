@@ -15,9 +15,12 @@ $margin: 2em;
 
 // -------- grid sections --------
 
-section {
+.section {
   padding-top: ( $margin * 2 );
   padding-bottom: ( $margin * 2 );
+  & + & {
+    padding-top: 0;
+  }
 }
 
 .row {

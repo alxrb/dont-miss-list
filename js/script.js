@@ -2,30 +2,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
-var currentOffer = getParameterByName('offer-id');
-
-// is there a query string already passed on the page
-  // if so open a modal with that offer's information
-if ( currentOffer) {
-  console.log( "launch modal with " + currentOffer + " information");
-};
-
-// on view offer click
-  // href is stopped and modal is opened with correct info
-
-
-
 ///////////////////////////////////////
 //        general
 ///////////////////////////////////////
@@ -54,28 +30,80 @@ if ( currentOffer) {
     $('html').addClass('touch');
   }
 
+  // searches for specific queryString
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+///////////////////////////////////////
+//          Expanding Offers
+///////////////////////////////////////
+
+// function to expand extra detail in offer
+function openOffer(offerId, scrollOption) {
+
+  var offer = $('.offer-' + offerId ),
+      preExpand = offer.find( ".offer__pre-expand" ),
+      expand    = offer.find( ".offer__expand" );
+
+  // give activated class
+    offer.removeClass('is-closed').addClass('is-open');
+
+  // shows section hides thumbnail
+  preExpand.slideUp(200);
+  expand.slideDown(200, function(){
+    // option to scroll to section
+    if (scrollOption) {
+      $('html,body').animate({ scrollTop: offer.offset().top}, 500);
+    }
+  });
+
+}
+
+// hides expanded section on all offers
+$('.offer__expand').hide();
+
+// opens offer on view more click
+$('.js-expand-offer').on('click', function(e) {
+  e.preventDefault(e);
+  var clickedOffer = $(this).data('offer-id');
+  openOffer(clickedOffer, 'scroll');
+});
+
+// looks for query string & opens specific offer
+var currentOffer = getParameterByName('offer-id');
+if ( currentOffer) {
+  openOffer(currentOffer, 'scroll');
+};
+
 
 ///////////////////////////////////////
 //        Navigation
 ///////////////////////////////////////
 
-  // mobile nav open
-  $('.js-mobile-menu-open').on('click', function(e) {
-    e.preventDefault();
-    $(this).addClass('mobile-icon__menu--open');
-    $('.mobile-menu').toggleClass('mobile-menu--open');
-  });
+  // // mobile nav open
+  // $('.js-mobile-menu-open').on('click', function(e) {
+  //   e.preventDefault();
+  //   $(this).addClass('mobile-icon__menu--open');
+  //   $('.mobile-menu').toggleClass('mobile-menu--open');
+  // });
 
-  // mobile nav close
-  $('.js-mobile-menu-close').on('click', function(e) {
-    e.preventDefault();
-    $('.js-mobile-menu-open').removeClass('mobile-icon__menu--open');
-    $('.mobile-menu').toggleClass('mobile-menu--open');
-  });
+  // // mobile nav close
+  // $('.js-mobile-menu-close').on('click', function(e) {
+  //   e.preventDefault();
+  //   $('.js-mobile-menu-open').removeClass('mobile-icon__menu--open');
+  //   $('.mobile-menu').toggleClass('mobile-menu--open');
+  // });
 
-  // current page nav highlight
-  var currentPage = $('body').data('current-page');
-  $('.' + currentPage + ' .microsite-nav__item--' + currentPage).addClass('microsite-nav__item--current');
+  // // current page nav highlight
+  // var currentPage = $('body').data('current-page');
+  // $('.' + currentPage + ' .microsite-nav__item--' + currentPage).addClass('microsite-nav__item--current');
 
 
 ///////////////////////////////////////

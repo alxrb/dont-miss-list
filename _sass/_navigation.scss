@@ -1,2 +1,12 @@
 // site header and navigation styles
 
+.site-header {
+  color: $white;
+  background-color: $dml-blue;
+  padding: 2em;
+  &__logo {
+    max-width: $small;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
