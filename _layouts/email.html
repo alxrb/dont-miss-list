@@ -10,8 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="format-detection" content="telephone=no" />
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300,400,600,700" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:400,700" rel="stylesheet">
 
   <style type="text/css">
 
@@ -22,7 +21,7 @@
     body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing: antialiased !important; mso-line-height-rule: exactly;} /* Prevent WebKit and Windows mobile changing default text sizes & general resets for text */
     table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
     img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
-    [style*="Lato"] { font-family: 'Lato', Helvetica, Arial, sans-serif !important } /* Stops outlook from using times new roman. Font family is reversed on inline style*/
+    [style*="Roboto"] { font-family: 'Roboto', Helvetica, Arial, sans-serif !important } /* Stops outlook from using times new roman. Font family is reversed on inline style*/
     [style*="Open Sans"] { font-family: 'Open Sans', Helvetica, Arial, sans-serif !important } /* Stops outlook from using times new roman. Font family is reversed on inline style*/
     a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } /* stops apple devices inserting links for phone numbers, dates, etc */
 
@@ -100,7 +99,7 @@
                 </tr>
                 <!-- INTRO TEXT -->
                 <tr>
-                  <td align="center" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 13px; line-height: 22px; letter-spacing: .025em; padding-bottom: 12px;">
+                  <td align="center" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 22px; letter-spacing: .025em; padding-bottom: 12px;">
                     {{ edition.description }}
                   </td>
                 </tr>
@@ -112,12 +111,21 @@
     </tr>
   </table>
 
+  <!--HEADER SPACING -->
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td bgcolor="#e9f1f2" align="center" height="44px">
+        &nbsp;
+      </td>
+    </tr>
+  </table>
+
   {{ content }}
 
   <!--FOOTER SPACING -->
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-      <td bgcolor="#e9f1f2" align="center" height="66px">
+      <td bgcolor="#e9f1f2" align="center" height="44px">
         &nbsp;
       </td>
     </tr>
@@ -161,22 +169,22 @@
                 </tr>
                 <!-- FOOTER SMALL TEXT -->
                 <tr>
-                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 11px; line-height: 18px; letter-spacing: .05em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
+                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 18px; letter-spacing: .025em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
                     When we’re not curating luxury escapes, we like to keep an eye out for promotions we think you’ll love – like these ones. We hope you enjoyed it. Visit our <a href="{{ site.url }}{{ site.baseurl }}{{ edition.link }}#terms-and-conditions" style="color: #3bc3cf; font-weight: 400; text-decoration: none;">Terms &amp; Conditions</a> page for more information on these offers.
                   </td>
                 </tr>
                 <tr>
-                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 11px; line-height: 18px; letter-spacing: .05em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
+                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 18px; letter-spacing: .025em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
                     Clicking our emails will log you into Secret Escapes. To tell friends about the sales it's best to use the share buttons on the site. To get in contact, please email us at <a href="mailto:support@secretescapes.com" style="color:#3bc3cf; text-decoration: none; font-weight:400;">support@secretescapes.com</a> or give us a call on 0843 22 77 777.
                   </td>
                 </tr>
                 <tr>
-                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 11px; line-height: 18px; letter-spacing: .05em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
+                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 18px; letter-spacing: .025em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
                     England &amp; Wales Company No. 07026107
                   </td>
                 </tr>
                 <tr>
-                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Lato'; font-size: 11px; line-height: 18px; letter-spacing: .05em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
+                  <td align="center" style="color: #bcc2c2; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 11px; line-height: 18px; letter-spacing: .025em; font-weight: 400; text-align: justify; padding-bottom: 12px;">
                     This email was sent to <a href="#" style="color:#bcc2c2; text-decoration: none;">%%EMAIL%%.</a> <a href="http://www.secretescapes.com/your-subscriptions?email=%%EMAIL%%&code=%%REFERENCE%%&utm_source=secretescapes&utm_medium=email&utm_campaign=%%=v(@campaign)=%%%%=v(@GA)=%%" style="color: #3bc3cf; font-weight: 400; text-decoration: none;">Unsubscribe here</a>
                   </td>
                 </tr>
