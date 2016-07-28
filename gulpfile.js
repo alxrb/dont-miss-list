@@ -43,7 +43,7 @@ gulp.task('concatScripts', function(){
 
 // minify complied html
 gulp.task('htmlMinify', function() {
-  return gulp.src('./_site/**/*.html')
+  return gulp.src(['./_site/**/*.html', '!./_site/**/email/*.html'])
   .pipe(htmlmin({
     collapseWhitespace: true,
     removeComments: true
