@@ -1,59 +1,16 @@
-<ul>
-{% for item in offers %}
-  <li class="row offer offer-{{ item.id }} box-shadow is-closed">
-    <div class="row offer__pre-expand">
-      <div class="row offer__pre-expand-content row--columns-8-4 row--columns-vertical-align">
-        <div class="row__column">
-          <div class="offer__title ">{{ item.title }}</div>
-        </div>
-        <div class="offer__view-btn row__column align-right">
-          <a class="js-expand-offer btn btn--white-transparent" href="#{{ item.id }}" data-offer-id="{{ item.id }}">View Offer</a>
-        </div>
-      </div>
-      <div class="offer__pre-expand-bg" style="background-image: url('{{ site.baseurl }}/img/edition/{{ page.edition }}/email/offer-{{ item.id }}.jpg');"></div>
-    </div>
-    <div class="offer__expand">
-      <!-- add in all of the content for the expanded version -->
-      <div class="row">
 
-        <div class="row row--columns-8-4 row--columns-vertical-align">
-          <div class="row__column">
-            <h3>{{ item.title }}</h3>
-          </div>
-          <div class="offer__view-btn row__column align-right">
-            <a id="tracking-landing-cta-top-{{ item.id }}" class="btn btn--blue" href="{{ item.link }}">
-            {% if item.custom-cta %}
-              {{ item.custom-cta }}
-            {% else %}
-              Claim Offer
-            {% endif %}
-          </a>
-          </div>
-        </div>
-        <div class="row">
-          <a href="{{ item.link }}">
-            <div class="bg-image-ratio bg-image-ratio--16-9" style="background-image: url('{{ site.baseurl }}/img/edition/{{ page.edition }}/email/offer-{{ item.id }}.jpg');"></div>
-          </a>
-        </div>
-        <div class="row">
-          {{ item.long-copy }}
-        </div>
-        <div class="row align-center">
-          <a id="tracking-landing-cta-bottom-{{ item.id }}" class="btn btn--large btn--blue" href="{{ item.link }}">
-            {% if item.custom-cta %}
-              {{ item.custom-cta }}
-            {% else %}
-              Claim Offer
-            {% endif %}
-          </a>
-        </div>
-      </div>
-      <hr class="row">
-      <div class="row offer__terms-and-conditions">
-        <h4>Terms &amp; Conditions</h4>
-        {{ item.terms-and-conditions }}
+{% for item in offers %}
+  <div class="row__column offer offer-{{ item.id }} box-shadow is-closed">
+    <div class="offer__image">
+      <img width="100%" src="{{ site.baseurl }}/img/edition/{{ page.edition }}/email/offer-{{ item.id }}.jpg">
+    </div>
+    <div class="row offer__pre-expand">
+      <div class="row offer__pre-expand-content">
+        <h4 class="offer__title ">{{ item.title }}</h4>
+        <p class="offer__description">
+          {{item.short-copy | strip_html | truncate: 80}}
+        </p>
       </div>
     </div>
-  </li>
+  </div>
 {% endfor %}
-</ul>

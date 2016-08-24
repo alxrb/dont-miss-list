@@ -4,23 +4,8 @@ body {
   background-color: $dml-blue-light;
 }
 
-.page {
-  &__title {
-    font-size: 3.375em;
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: .075em;
-    padding-bottom: 0.25em;
-    margin-bottom: .2em;
-    border-bottom: 1px solid $dml-gray-light;
-  }
-  &__sub-title {
-    font-size: 1.728em;
-    font-weight: 100;
-    letter-spacing: .05em;
-    margin-bottom: 1em;
-  }
-}
+
+
 
 hr {
   border: 0;
@@ -101,4 +86,47 @@ hr {
     }
   }
   * + & { margin-top: 1em; }
+}
+
+// -------- banner --------
+
+.section--fixed-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &.banner {
+    padding-top: 5em; padding-bottom: 5em;
+    color: $white;
+    background-image: url('../img/content/banner-default.jpg');
+    background-position: top center;
+
+    .page__title {
+      font-size: 4.1em;
+      font-weight: 200;
+      text-transform: uppercase;
+      letter-spacing: .075em;
+      margin-bottom: .1em;
+    }
+    .page__sub-title {
+      margin-bottom: 0.5em;
+    }
+    .page__description {
+      margin-bottom: 0.5em;
+      text-align: justify;
+    }
+
+    .article__current { padding: 10px 15px; background-color: $white; color: $dml-blue-darkest; display: block; margin-bottom: 5px; font-weight: 600;}
+    .article__past { padding: 10px 15px; background-color: rgba(255,255,255,0.1); }
+  }
+}
+
+
+
+.section--title-banner {
+  background-color: $white;
+  color: $dml-blue-darkest;
+  padding: 1em 0;
+  h3 { margin: 0; }
 }

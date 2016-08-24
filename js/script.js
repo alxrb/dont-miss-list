@@ -80,7 +80,7 @@ $('.js-expand-offer').on('click', function(e) {
 var currentOffer = getParameterByName('offer-id');
 if ( currentOffer) {
   openOffer(currentOffer, 'scroll');
-};
+}
 
 
 ///////////////////////////////////////
@@ -119,6 +119,19 @@ if ( currentOffer) {
       $(this).attr('src', newSrc);
     });
   }
+
+  ///////////////////////////////////////
+  //      Parallax
+  ///////////////////////////////////////
+
+  $(document).scroll(function(){
+    var scrolled = $(document).scrollTop();
+    $('.parallax').each(function(){
+      var speed = $(this).attr('data-parallax-speed');
+      var parallax = scrolled * speed ;
+      $(this).css('background-position', 'center -' + parallax + 'px');
+    });
+  });
 
 
 ///////////////////////////////////////////////////////////////////////////////

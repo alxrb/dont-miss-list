@@ -4,14 +4,13 @@
 // -------- root typography styles --------
 
 $core-font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
-$main-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-$title-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+$main-font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+$title-font-family: 'Roboto Slab', 'Helvetica Neue', sans-serif;
 
 html { font-size:62.5%; }
 body,
 input, textarea, keygen, select, button {
   font: 400 14px/1.728 $main-font-family;
-  letter-spacing: -.015em;
   -webkit-text-size-adjust: 100%;
   @include bp( large ) {
     font-size: 15px;
@@ -24,8 +23,7 @@ input, textarea, keygen, select, button {
 h1, .h1,
 h2, .h2,
 h3, .h3,
-h4, .h4,
-h5, .h5 {
+h4, .h4 {
   font-family: $title-font-family;
   line-height: 1.25;
   margin-bottom: .25em;
@@ -37,7 +35,10 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2.488em;
+  font-size: 1.728em;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: .05em;
 }
 
 h3, .h3 {
@@ -45,6 +46,14 @@ h3, .h3 {
 }
 
 h4, .h4 { font-size: 1.728em; }
+
+h5, .h5 {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+}
 
 
 // -------- general content styles --------

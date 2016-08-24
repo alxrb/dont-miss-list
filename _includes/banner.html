@@ -1,0 +1,61 @@
+
+{% assign current-edition = site.data.editions.[page.edition] %}
+
+
+
+<div class="banner section--fixed-bg parallax" data-parallax-speed="0.2">
+
+
+
+  <div class="row row--padding">
+    <img src="{{site.baseurl}}/img/logo/se-logo.png" alt="Secret Escapes">
+  </div>
+
+
+
+  {% include header.html %}
+
+
+
+  <div class="row row--padding">
+    <div class="row__column">
+      <h1 class="page__title">{{current-edition.date | date: '%B %Y' }}</h1>
+    </div>
+  </div>
+
+  <div class="row row--padding row--columns-8-4-gutters">
+    <div class="row__column">
+      <h2 class="page__sub-title">{{ current-edition.subject-line }}</h2>
+      <p class="page__description">{{ current-edition.description }}</p>
+      <a class="btn btn--small align-right" href="email">View email</a>
+    </div>
+
+    <div class="row__column">
+      <div class="article__current">
+        <p><strong>
+          {{current-edition.date | date: '%d.%m.%Y' }} {{ current-edition.subject-line | strip_html | truncate: 25 }}
+        </strong></p>
+      </div>
+      <div class="article__past">
+        <h5>Past editions</h5>
+        {% for edition-array in site.data.editions reversed %}
+        {% assign edition = edition-array[1] %}
+          <p>
+            <a href="{{ site.baseurl }}{{ edition.link }}">
+              {{ edition.date | date: '%d.%m.%Y' }} {{ edition.subject-line | strip_html | truncate: 25 }}
+            </a>
+          </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<div class="section section--title-banner">
+  <div class="row row--padding">
+    <h3 class="h2">In this issue...</h3>
+  </div>
+</div>
