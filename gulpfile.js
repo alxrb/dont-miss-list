@@ -75,7 +75,7 @@ gulp.task('compressImages', function () {
 
 
 // builds jekyll site & watch for changes
-gulp.task('default', ['build', 'serve']);
+gulp.task('default', ['build', 'serve', 'concatScripts']);
 
 // run before uploading to live - compresses images & css
 gulp.task('compress', ['compressImages', 'optimiseCss', 'htmlMinify']);
