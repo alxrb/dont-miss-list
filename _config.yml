@@ -2,7 +2,7 @@
 title: dont-miss-list
 name: Don't Miss List
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam voluptatibus totam accusantium laborum quo dolore.
+  Once a month, we’ll be sending you a hand-picked selection of days out and experiences, plus unmissable deals on flights and getaways. Whatever your interests – West End theatre, cruise breaks or helicopter tours – we’ll be helping you make the most of your summer, come rain or sunshine. Welcome to the very first edition – we hope you enjoy it!
 baseurl: "/dont-miss-list" # the subpath of your site, e.g. /blog/
 url: "https://www.secretescapes.com" # the base hostname & protocol for your site
 
