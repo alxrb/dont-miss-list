@@ -7,5 +7,7 @@
   margin: 1em 0 3em;
   &__logo {
     max-width: 558px;
+    float:left;
   }
+  .edition_date { float: right; margin-top: 20px; }
 }

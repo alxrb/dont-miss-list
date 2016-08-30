@@ -20,20 +20,23 @@ hr {
   list-style-type: none !important;
   @include box-shadow;
   & + & {
-    margin-top: 1em;
+    margin-top: 0;
+    border-top: 1px solid $dml-blue-light;
   }
   &__link {
     display: block;
-    padding: 1em 2em;
+    padding: 1em 2em 1.4em;
     background-color: $white;
+    overflow: hidden;
     @include transition;
     &:hover {
       padding-top: 1.2em;
-      padding-bottom: 1.2em;
+      padding-bottom: 1.6em;
       color: $white;
       background-color: $dml-blue;
       text-decoration: none;
     }
+    h3 { margin-bottom: 0; }
   }
 }
 
@@ -97,13 +100,21 @@ hr {
   background-attachment: fixed;
 
   &.banner {
-    padding-top: 5em; padding-bottom: 5em;
+    padding-top: 3em; padding-bottom: 3em;
     color: $white;
     background-image: url('../img/content/banner-default.jpg');
     background-position: top center;
 
+    /*
+    background: $dml-blue-dark;
+    background: -moz-linear-gradient(-165deg, $dml-blue 0%, $se-orange 100%);
+    background: -webkit-linear-gradient(-165deg, $dml-blue 0%, $se-orange 100%);
+    background: linear-gradient(-165deg, $dml-blue 0%, $se-orange 100%);
+    */
+
     .page__title {
-      font-size: 4.1em;
+      font-size: 3.6em;
+      line-height: 1.1;
       font-weight: 200;
       text-transform: uppercase;
       letter-spacing: .075em;
@@ -117,8 +128,16 @@ hr {
       text-align: justify;
     }
 
-    .article__current { padding: 10px 15px; background-color: $white; color: $dml-blue-darkest; display: block; margin-bottom: 5px; font-weight: 600;}
-    .article__past { padding: 10px 15px; background-color: rgba(255,255,255,0.1); }
+    .article__current {
+      padding: 10px 15px;
+      background-color: $white;
+      color: $dml-blue-darkest;
+      display: block;
+      margin-bottom: 5px; }
+    .article__past {
+      padding: 10px 15px;
+      background-color: rgba(255,255,255,0.1); }
+
   }
 }
 
@@ -126,7 +145,9 @@ hr {
 
 .section--title-banner {
   background-color: $white;
-  color: $dml-blue-darkest;
-  padding: 1em 0;
-  h3 { margin: 0; }
+  color: $dml-gray;
+  padding: 2em 0;
+  text-align: center;
+  border-bottom: 1px solid #d8e1e2;
+  h3 { margin-bottom: 0.5em; color: $dml-blue-darkest; }
 }
