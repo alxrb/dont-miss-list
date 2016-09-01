@@ -46,41 +46,41 @@
 ///////////////////////////////////////
 
 // function to expand extra detail in offer
-function openOffer(offerId, scrollOption) {
-
-  var offer = $('.offer-' + offerId ),
-      preExpand = offer.find( ".offer__pre-expand" ),
-      expand    = offer.find( ".offer__expand" );
-
-  // give activated class
-    offer.removeClass('is-closed').addClass('is-open');
-
-  // shows section hides thumbnail
-  preExpand.slideUp(200);
-  expand.slideDown(200, function(){
-    // option to scroll to section
-    if (scrollOption) {
-      $('html,body').animate({ scrollTop: offer.offset().top}, 500);
-    }
-  });
-
-}
-
-// hides expanded section on all offers
-$('.offer__expand').hide();
-
-// opens offer on view more click
-$('.js-expand-offer').on('click', function(e) {
-  e.preventDefault(e);
-  var clickedOffer = $(this).data('offer-id');
-  openOffer(clickedOffer, 'scroll');
-});
-
-// looks for query string & opens specific offer
-var currentOffer = getParameterByName('offer-id');
-if ( currentOffer) {
-  openOffer(currentOffer, 'scroll');
-}
+// function openOffer(offerId, scrollOption) {
+//
+//   var offer = $('.offer-' + offerId ),
+//       preExpand = offer.find( ".offer__pre-expand" ),
+//       expand    = offer.find( ".offer__expand" );
+//
+//   // give activated class
+//     offer.removeClass('is-closed').addClass('is-open');
+//
+//   // shows section hides thumbnail
+//   preExpand.slideUp(200);
+//   expand.slideDown(200, function(){
+//     // option to scroll to section
+//     if (scrollOption) {
+//       $('html,body').animate({ scrollTop: offer.offset().top}, 500);
+//     }
+//   });
+//
+// }
+//
+// // hides expanded section on all offers
+// $('.offer__expand').hide();
+//
+// // opens offer on view more click
+// $('.js-expand-offer').on('click', function(e) {
+//   e.preventDefault(e);
+//   var clickedOffer = $(this).data('offer-id');
+//   openOffer(clickedOffer, 'scroll');
+// });
+//
+// // looks for query string & opens specific offer
+// var currentOffer = getParameterByName('offer-id');
+// if ( currentOffer) {
+//   openOffer(currentOffer, 'scroll');
+// }
 
 
 ///////////////////////////////////////
@@ -120,9 +120,10 @@ if ( currentOffer) {
     });
   }
 
-  ///////////////////////////////////////
-  //      Parallax
-  ///////////////////////////////////////
+
+///////////////////////////////////////
+//      Parallax
+///////////////////////////////////////
 
   $(document).scroll(function(){
     var scrolled = $(document).scrollTop();
@@ -132,6 +133,61 @@ if ( currentOffer) {
       $(this).css('background-position', 'center -' + parallax + 'px');
     });
   });
+
+
+///////////////////////////////////////
+//      landing page modal
+///////////////////////////////////////
+
+  var modal         = $('.js-modal'),
+      modalContent  = $('.js-modal__content'),
+      modalClose    = $('.js-modal__close');
+
+  // EVENT - launch modal & populate with content
+  $('.js-launch-modal').on('click', function(e) {
+
+    e.preventDefault();
+
+    // set variables
+    var offerId             = $(this).data('offer-id'),
+        offerContentClass   = ".modal__content--" + offerId,
+        offerContent        = $(offerContentClass);
+
+    // hide previous content
+    // $('.modal__content.is-open').toggleClass('is-open').toggleClass('is-closed');
+    openToggle($('.modal__content.is-open'));
+
+    // launch modal
+    modal.removeClass('is-closed').addClass('is-open');
+    $('body').css('overflow', 'hidden');
+
+    // reveal content
+    openToggle(offerContent);
+  });
+
+  // toggles generic open close classes
+  function openToggle(selector) {
+    selector.toggleClass('is-closed').toggleClass('is-open');
+  }
+  function closeModal(e) {
+      e.on('click', function() {
+      modal.removeClass('is-open').addClass('is-closed');
+      $('body').css('overflow', 'auto');
+    });
+  }
+
+  $(document).keyup(function(e) {
+     if (e.keyCode == 27) { // escape key maps to keycode `27`
+       modal.removeClass('is-open').addClass('is-closed');
+       $('body').css('overflow', 'auto');
+      }
+  });
+
+  // close modal on icon and bg click
+  closeModal(modalClose);
+  // closeModal(modal);
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////

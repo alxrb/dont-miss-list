@@ -5,7 +5,7 @@
 
 $core-font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
 $main-font-family: 'Roboto', 'Helvetica Neue', sans-serif;
-$title-font-family: 'Roboto Slab', 'Helvetica Neue', sans-serif;
+$title-font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 
 html { font-size:62.5%; }
 body,
@@ -60,9 +60,6 @@ h5, .h5 {
 
 em                { font-style: italic; }
 strong            { font-weight: 600; }
-p                 { max-width: $large; }
-p.align-center,
-.align-center p   { margin-left: auto; margin-right: auto; }
 
 
 .page-content {

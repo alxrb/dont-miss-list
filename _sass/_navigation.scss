@@ -3,11 +3,10 @@
 .site-header {
   color: $white;
   background-color: $dml-blue;
-  padding: 0;
-  margin: 1em 0 3em;
+  padding: 2em;
   &__logo {
-    max-width: 558px;
-    float:left;
+    max-width: $small;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .edition_date { float: right; margin-top: 20px; }
 }

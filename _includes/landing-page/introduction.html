@@ -1,0 +1,12 @@
+<div class="section introduction">
+  <div class="row row--padding">
+    <h1 class="introduction__title">{{ current-edition.subject-line }}</h1>
+    <h2 class="introduction__date">{{current-edition.date | date: '%B %Y' }}</h2>
+    <div class="introduction__description">
+      <p>{{ current-edition.description }}</p>
+      <div class="align-center">
+        <a class="btn btn--small" href="email">View email</a>
+      </div>
+    </div>
+  </div>
+</div>

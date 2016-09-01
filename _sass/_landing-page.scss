@@ -1,14 +1,54 @@
+// landing page specific
 
+
+// -------- introduction on landing page --------
+
+.introduction {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  border-bottom: 1px solid #d8e1e2;
+  background-color: $white;
+  margin-bottom: ($margin * 2);
+  &__title {
+    padding-bottom: 0.2em;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: .033em;
+    border-bottom: 1px solid #d8e1e2;
+  }
+  &__date {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  &__description {
+    margin-top: 1.5em;
+    text-align: justify;
+    color: $dml-gray;
+  }
+}
+
+
+// -------- offer blocks --------
 
 .offer {
-
+  position: relative;
   list-style-type: none !important;
   background-color: $white;
   color: $dml-blue-darkest;
   margin-bottom: $margin;
-  position: relative;
   @include transition;
-
+  @include clearfix;
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    display: block;
+  }
   &__btn {
     position: absolute;
     top: 0; right: 0;
@@ -33,9 +73,9 @@
       height: 100%; width: 100px;
       background-color: $dml-blue-darkest;
     }
-    &:hover {
-      width: 100%;
-    }
+  }
+  &:hover &__btn {
+    width: 100%;
   }
 
   &__image {

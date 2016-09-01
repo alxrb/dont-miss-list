@@ -6,8 +6,12 @@ class: landing-page
 {% assign current-edition = site.data.editions.[page.edition] %}
 {% assign offers = current-edition.offers %}
 
+{% include landing-page/introduction.html %}
+
 <div class="section row row--padding">
   <div class="row  row--columns-4-4-4-gutters">
-    {% include landing-page/expanding-offer-list.html %}
+    {% include landing-page/offer.html %}
   </div>
 </div>
+
+{% include landing-page/offer-modal-content.html %}
