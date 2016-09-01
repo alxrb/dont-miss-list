@@ -2,19 +2,19 @@
 layout: default
 ---
 
+<div class="section introduction">
+  <div class="row row--padding">
+    <p>Once a month, we’ll be sending you a hand-picked selection of days out and experiences, plus unmissable deals on flights and getaways. Whatever your interests – West End theatre, cruise breaks or helicopter tours – we’ll be helping you make the most of your summer, come rain or sunshine. Welcome to the very first edition – we hope you enjoy it!</p>
+  </div>
+</div>
+
 <section class="section row row--padding">
-  <div class="row  row--columns-4-8-gutters">
-
-    <div class="row__column">
-      <p>Once a month, we’ll be sending you a hand-picked selection of days out and experiences, plus unmissable deals on flights and getaways. Whatever your interests – West End theatre, cruise breaks or helicopter tours – we’ll be helping you make the most of your summer, come rain or sunshine. Welcome to the very first edition – we hope you enjoy it!</p>
-    </div>
-
-    <ul class="row__column">
-      {% for edition-array in site.data.editions reversed %}
-      {% assign edition = edition-array[1] %}
-        <li class="edition">
-          <a class="edition__link" href="{{ site.baseurl }}{{ edition.link }}"><h3>{{ edition.name }}</h3></a>
-        </li>
-      {% endfor %}
-    </ul>
+  <ul class="row__column">
+    {% for edition-array in site.data.editions reversed %}
+    {% assign edition = edition-array[1] %}
+      <li class="edition">
+        <a class="edition__link" href="{{ site.baseurl }}{{ edition.link }}"><h3>{{ edition.name }}</h3></a>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
