@@ -1,28 +1,101 @@
+// landing page specific
 
 
+// -------- introduction on landing page --------
 
-// NEED TO UPDATE WITH BETTER CLASS
-.landing-page-description {
-  // margin-left: auto;
-  // margin-right: auto;
-  // max-width: $large;
-  color: $dml-gray;
-  text-align: justify;
-  margin-bottom: 1.5em;
+.introduction {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  border-bottom: 1px solid #d8e1e2;
+  background-color: $white;
+  margin-bottom: ($margin * 2);
+  &__title {
+    padding-bottom: 0.2em;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: .033em;
+    border-bottom: 1px solid #d8e1e2;
+  }
+  &__date {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  &__description {
+    margin-top: 1.5em;
+    text-align: justify;
+    color: $dml-gray;
+  }
 }
 
+
+// -------- offer blocks --------
+
 .offer {
+  position: relative;
   list-style-type: none !important;
-  background-color: $dml-blue-darkest;
-  color: $white;
+  background-color: $white;
+  color: $dml-blue-darkest;
+  margin-bottom: $margin;
   @include transition;
-  &.is-open {
-    color: $text-black;
-    background-color: $white;
+  @include clearfix;
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    display: block;
+  }
+  &__btn {
+    position: absolute;
+    top: 0; right: 0;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    @include transition;
+    &-target {
+      position: absolute;
+      top: 0; right: 0;
+      display: block;
+      padding: 10px;
+      width: 40px; height: 100%;
+      background-color: $dml-blue-dark;
+    }
+    &-copy {
+      position: absolute;
+      top: 0; right: 40px;
+      padding: 10px;
+      font-size: 0.86em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+      height: 100%; width: 100px;
+      background-color: $dml-blue-darkest;
+    }
+  }
+  &:hover &__btn {
+    width: 100%;
+  }
+
+  &__image {
+    display: block;
+    position: relative;
+    img { float: left; }
   }
   &__title {
-    font-size: 1.728em;
+    font-size: 1.2em;
     line-height: 1.25;
+    font-family: $main-font-family;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+  &__content {
+    padding: 1em 1.5em;
+    float: left;
+  }
+  &__description {
+    color: $dml-gray;
   }
   &__view-btn {
 
@@ -30,27 +103,6 @@
   &__thumbnail {
     display: inline-block;
     max-width: $small;
-  }
-  &__pre-expand,
-  &__expand {
-    padding: 2.488em 2em;
-  }
-  &__pre-expand-content {
-    z-index: $z-content-upper;
-  }
-  &__pre-expand-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: $z-content;
-    opacity: .33;
-    background-position: center;
-    background-size: cover;
-  }
-  &__expand {
-
   }
   &__terms-and-conditions {
     font-size: .8em;

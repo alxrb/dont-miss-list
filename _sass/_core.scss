@@ -21,13 +21,15 @@ $black-66:    rgba(0,0,0,.66);
 $black-75:    rgba(0,0,0,.75);
 $black-85:    rgba(0,0,0,.85);
 
-$se-orange:        #ff8c00;
-$dml-blue:         #3bc3cf;
-$dml-blue-light:   #e9f1f2;
-$dml-blue-dark:    #1c99a4;
-$dml-blue-darkest: #263e40;
-$dml-gray-light:   #c9dadc;
-$dml-gray:         #738a8c;
+$se-orange:         #ff8c00;
+$dml-blue:          #3bc3cf;
+$dml-blue-light:    #e9f1f2;
+$dml-blue-dark:     #1c99a4;
+$dml-blue-darkest:  #263e40;
+$dml-black:         #161d1d;
+$dml-black-85:      rgba(22, 29, 29, 0.85);
+$dml-gray-light:    #c9dadc;
+$dml-gray:          #738a8c;
 
 // -------- breakpoints --------
 
@@ -173,3 +175,9 @@ $z-background:      -1;
 
 @mixin box-shadow() { box-shadow: 0px 4px 10px 0px rgba(6,47,52,.075); }
 .box-shadow { @include box-shadow; }
+
+
+// -------- generic states --------
+
+.is-open   { display: block; }
+.is-closed { display: none; }

@@ -4,52 +4,10 @@ body {
   background-color: $dml-blue-light;
 }
 
-.page {
-  &__title {
-    font-size: 3.375em;
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: .075em;
-    padding-bottom: 0.25em;
-    margin-bottom: .2em;
-    border-bottom: 1px solid $dml-gray-light;
-  }
-  &__sub-title {
-    font-size: 1.728em;
-    font-weight: 100;
-    letter-spacing: .05em;
-    margin-bottom: 1em;
-  }
-}
-
 hr {
   border: 0;
   background-color: $dml-gray-light;
   height: 1px;
-}
-
-.edition {
-  max-width: $large;
-  margin-left: auto;
-  margin-right: auto;
-  list-style-type: none !important;
-  @include box-shadow;
-  & + & {
-    margin-top: 1em;
-  }
-  &__link {
-    display: block;
-    padding: 1em 2em;
-    background-color: $white;
-    @include transition;
-    &:hover {
-      padding-top: 1.2em;
-      padding-bottom: 1.2em;
-      color: $white;
-      background-color: $dml-blue;
-      text-decoration: none;
-    }
-  }
 }
 
 // ---------- button ----------
@@ -101,4 +59,34 @@ hr {
     }
   }
   * + & { margin-top: 1em; }
+}
+
+
+// -------- edition links on homepage --------
+
+.edition {
+  max-width: $large;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none !important;
+  @include box-shadow;
+  & + & {
+    margin-top: 0;
+    border-top: 1px solid $dml-blue-light;
+  }
+  &__link {
+    display: block;
+    padding: 1em 2em 1.4em;
+    background-color: $white;
+    overflow: hidden;
+    @include transition;
+    &:hover {
+      padding-top: 1.2em;
+      padding-bottom: 1.6em;
+      color: $white;
+      background-color: $dml-blue;
+      text-decoration: none;
+    }
+    h3 { margin-bottom: 0; }
+  }
 }

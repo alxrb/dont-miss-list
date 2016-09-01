@@ -1,0 +1,68 @@
+// modal specific
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-overlay;
+  background-color: $dml-black-85;
+  color: $white;
+  overflow-y: auto;
+  &__close {
+    position: fixed;
+    right: 2em;
+    top: 1em;
+    height: 3em;
+    width: 3em;
+    border-radius: 5em;
+    background-color: $black-5;
+    background-image: url('/img/icon/close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    cursor: pointer;
+    z-index: $z-overlay-upper;
+    @include transition;
+    &:hover {
+      right: 1.75em;
+      top: .75em;
+      height: 3.5em;
+      width: 3.5em;
+      background-size: 1.33em;
+      background-color: $black-85;
+    }
+  }
+  &__content {
+    padding-top: ($margin*2);
+    padding-bottom: ($margin*4);
+    @include box-shadow;
+  }
+  &__content-wrap {
+    padding: $margin;
+    color: $text-black;
+    background-color: $white;
+  }
+  &__title {
+    font-size: 2.25em;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 500;
+    @include bp(large) {
+      text-align: left;
+    };
+  }
+  &__top-cta {
+    text-align: center;
+    > a { text-align: center; }
+    @include bp(large) {
+      text-align: right;
+    };
+  }
+  &__terms {
+    font-size: .8em;
+    color: #738a8c;
+  }
+}
