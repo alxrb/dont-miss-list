@@ -41,6 +41,7 @@
     padding-bottom: ($margin*2);
     @include box-shadow;
     cursor: auto;
+    & + & { margin-top: 0 !important; }
   }
   &__content-wrap {
     padding: $margin;
