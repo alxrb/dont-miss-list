@@ -115,7 +115,6 @@
       modal.removeClass('is-closed').addClass('is-open');
       // disable scrolling
       $('body').addClass('disable-scroll');
-      // $('body').css('overflow', 'hidden').css('position', 'fixed');
     }
 
     // closes modal
@@ -126,7 +125,6 @@
       $('.modal__content.is-open').removeClass('is-open').addClass('is-closed');
       // enable scrolling
       $('body').removeClass('disable-scroll');
-      // $('body').css('overflow', 'auto').css('position', 'static');
     }
 
     // launches modal if query string
