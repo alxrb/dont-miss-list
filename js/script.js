@@ -114,17 +114,19 @@
       // open modal - switch classes
       modal.removeClass('is-closed').addClass('is-open');
       // disable scrolling
-      $('body').css('overflow', 'hidden');
+      $('body').addClass('disable-scroll');
+      // $('body').css('overflow', 'hidden').css('position', 'fixed');
     }
 
     // closes modal
     function modalClose(){
-      // close modal - switch classes
-      modal.removeClass('is-open').addClass('is-closed');
+      // close modal - resets scroll position & switches classes
+      modal.scrollTop(0).removeClass('is-open').addClass('is-closed');
       // close open offer in modal
       $('.modal__content.is-open').removeClass('is-open').addClass('is-closed');
       // enable scrolling
-      $('body').css('overflow', 'auto');
+      $('body').removeClass('disable-scroll');
+      // $('body').css('overflow', 'auto').css('position', 'static');
     }
 
     // launches modal if query string
@@ -142,6 +144,14 @@
 
     // closes modal on close icon click
     modalCloseBtn.on('click', function() {
+      modalClose();
+    });
+
+    // closes modal on background click
+    modal.on('click', function(e) {
+      if (e.target !== this){
+        return;
+      }
       modalClose();
     });
 

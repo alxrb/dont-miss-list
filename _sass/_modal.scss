@@ -10,7 +10,8 @@
   z-index: $z-overlay;
   background-color: $dml-black-85;
   color: $white;
-  overflow-y: auto;
+  overflow-y: scroll;
+  cursor: pointer;
   &__close {
     position: fixed;
     right: 2em;
@@ -37,8 +38,9 @@
   }
   &__content {
     padding-top: ($margin*2);
-    padding-bottom: ($margin*4);
+    padding-bottom: ($margin*2);
     @include box-shadow;
+    cursor: auto;
   }
   &__content-wrap {
     padding: $margin;
@@ -65,4 +67,14 @@
     font-size: .8em;
     color: #738a8c;
   }
+}
+
+.disable-scroll {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-content;
 }
