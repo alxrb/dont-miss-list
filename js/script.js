@@ -104,27 +104,40 @@
       modalCloseBtn  = $('.js-modal__close');
 
     // opens modal
-    function modalOpen(offerId){
-      event.preventDefault();
+    function modalOpen(offerId, event){
+      var eventVar = event || false;
+      if (eventVar) { event.preventDefault(); }
       // get class for offer content
       var offerContentClass   = ".modal__content--" + offerId,
           offerContent        = $(offerContentClass);
-      // show offer content - switch classes
-      offerContent.removeClass('is-closed').addClass('is-open');
-      // open modal - switch classes
-      modal.removeClass('is-closed').addClass('is-open');
+          // stop function if offer doesn't exist
+      if ($(offerContentClass).length === 0) { return false; }
       // disable scrolling
       $('body').addClass('disable-scroll');
+      // open modal
+      modal.show(0, function() {
+        // switch classes when open
+        $(this).removeClass('is-closed').addClass('is-open');
+        // show offer content with fade
+        offerContent.fadeIn(350, function() {
+          // switch classes when open
+          $(this).removeClass('is-closed').addClass('is-open');
+        });
+      });
     }
 
     // closes modal
     function modalClose(){
-      // close modal - resets scroll position & switches classes
-      modal.scrollTop(0).removeClass('is-open').addClass('is-closed');
-      // close open offer in modal
-      $('.modal__content.is-open').removeClass('is-open').addClass('is-closed');
-      // enable scrolling
-      $('body').removeClass('disable-scroll');
+      // close modal with fade
+      modal.fadeOut(400, function() {
+        // enable scrolling
+        $('body').removeClass('disable-scroll');
+        // close open offer in modal
+        $('.modal__content.is-open').hide().removeClass('is-open').addClass('is-closed');
+        // resets scroll position & switches classes when closed
+        $(this).scrollTop(0).removeClass('is-open').addClass('is-closed');
+        // show offer content - switch classes & fade
+      });
     }
 
     // launches modal if query string
@@ -134,10 +147,10 @@
     }
 
     // launches modal when offer is clicked
-    modalLaunchBtn.on('click', function() {
+    modalLaunchBtn.on('click', function(e) {
       // gets data id
       var offerId = $(this).data('offer-id');
-      modalOpen(offerId);
+      modalOpen(offerId, e);
     });
 
     // closes modal on close icon click

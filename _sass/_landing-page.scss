@@ -48,6 +48,10 @@
     bottom: 0;
     z-index: $z-content-upper;
     display: block;
+    // IE fix - stops text from appearing above link
+      background-color: #fff;
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   }
   &__btn {
     position: absolute;
@@ -96,9 +100,6 @@
   }
   &__description {
     color: $dml-gray;
-  }
-  &__view-btn {
-
   }
   &__thumbnail {
     display: inline-block;
