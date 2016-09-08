@@ -31,7 +31,7 @@
   }
 
   // searches for specific queryString
-  function getParameterByName(name, url) {
+  function getQueryStringByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -40,47 +40,6 @@
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
-
-///////////////////////////////////////
-//          Expanding Offers
-///////////////////////////////////////
-
-// function to expand extra detail in offer
-// function openOffer(offerId, scrollOption) {
-//
-//   var offer = $('.offer-' + offerId ),
-//       preExpand = offer.find( ".offer__pre-expand" ),
-//       expand    = offer.find( ".offer__expand" );
-//
-//   // give activated class
-//     offer.removeClass('is-closed').addClass('is-open');
-//
-//   // shows section hides thumbnail
-//   preExpand.slideUp(200);
-//   expand.slideDown(200, function(){
-//     // option to scroll to section
-//     if (scrollOption) {
-//       $('html,body').animate({ scrollTop: offer.offset().top}, 500);
-//     }
-//   });
-//
-// }
-//
-// // hides expanded section on all offers
-// $('.offer__expand').hide();
-//
-// // opens offer on view more click
-// $('.js-expand-offer').on('click', function(e) {
-//   e.preventDefault(e);
-//   var clickedOffer = $(this).data('offer-id');
-//   openOffer(clickedOffer, 'scroll');
-// });
-//
-// // looks for query string & opens specific offer
-// var currentOffer = getParameterByName('offer-id');
-// if ( currentOffer) {
-//   openOffer(currentOffer, 'scroll');
-// }
 
 
 ///////////////////////////////////////
@@ -136,58 +95,83 @@
 
 
 ///////////////////////////////////////
-//      landing page modal
+//    landing page offer modals
 ///////////////////////////////////////
 
-  var modal         = $('.js-modal'),
-      modalContent  = $('.js-modal__content'),
-      modalClose    = $('.js-modal__close');
+  var modal          = $('.js-modal'),
+      modalContent   = $('.js-modal__content'),
+      modalLaunchBtn = $('.js-launch-modal'),
+      modalCloseBtn  = $('.js-modal__close');
 
-  // EVENT - launch modal & populate with content
-  $('.js-launch-modal').on('click', function(e) {
+    // opens modal
+    function modalOpen(offerId, event){
+      var eventVar = event || false;
+      if (eventVar) { event.preventDefault(); }
+      // get class for offer content
+      var offerContentClass   = ".modal__content--" + offerId,
+          offerContent        = $(offerContentClass);
+          // stop function if offer doesn't exist
+      if ($(offerContentClass).length === 0) { return false; }
+      // disable scrolling
+      $('body').addClass('disable-scroll');
+      // open modal
+      modal.show(0, function() {
+        // switch classes when open
+        $(this).removeClass('is-closed').addClass('is-open');
+        // show offer content with fade
+        offerContent.fadeIn(350, function() {
+          // switch classes when open
+          $(this).removeClass('is-closed').addClass('is-open');
+        });
+      });
+    }
 
-    e.preventDefault();
+    // closes modal
+    function modalClose(){
+      // close modal with fade
+      modal.fadeOut(400, function() {
+        // enable scrolling
+        $('body').removeClass('disable-scroll');
+        // close open offer in modal
+        $('.modal__content.is-open').hide().removeClass('is-open').addClass('is-closed');
+        // resets scroll position & switches classes when closed
+        $(this).scrollTop(0).removeClass('is-open').addClass('is-closed');
+        // show offer content - switch classes & fade
+      });
+    }
 
-    // set variables
-    var offerId             = $(this).data('offer-id'),
-        offerContentClass   = ".modal__content--" + offerId,
-        offerContent        = $(offerContentClass);
+    // launches modal if query string
+    var currentOffer = getQueryStringByName('offer-id');
+    if ( currentOffer) {
+      modalOpen(currentOffer);
+    }
 
-    // hide previous content
-    // $('.modal__content.is-open').toggleClass('is-open').toggleClass('is-closed');
-    openToggle($('.modal__content.is-open'));
-
-    // launch modal
-    modal.removeClass('is-closed').addClass('is-open');
-    $('body').css('overflow', 'hidden');
-
-    // reveal content
-    openToggle(offerContent);
-  });
-
-  // toggles generic open close classes
-  function openToggle(selector) {
-    selector.toggleClass('is-closed').toggleClass('is-open');
-  }
-  function closeModal(e) {
-      e.on('click', function() {
-      modal.removeClass('is-open').addClass('is-closed');
-      $('body').css('overflow', 'auto');
+    // launches modal when offer is clicked
+    modalLaunchBtn.on('click', function(e) {
+      // gets data id
+      var offerId = $(this).data('offer-id');
+      modalOpen(offerId, e);
     });
-  }
 
-  $(document).keyup(function(e) {
-     if (e.keyCode == 27) { // escape key maps to keycode `27`
-       modal.removeClass('is-open').addClass('is-closed');
-       $('body').css('overflow', 'auto');
+    // closes modal on close icon click
+    modalCloseBtn.on('click', function() {
+      modalClose();
+    });
+
+    // closes modal on background click
+    modal.on('click', function(e) {
+      if (e.target !== this){
+        return;
       }
-  });
+      modalClose();
+    });
 
-  // close modal on icon and bg click
-  closeModal(modalClose);
-  // closeModal(modal);
-
-
+    // closes modal on escape key press
+    $(document).keyup(function(e) {
+       if (e.keyCode == 27) {
+         modalClose();
+        }
+    });
 
 
 ///////////////////////////////////////////////////////////////////////////////

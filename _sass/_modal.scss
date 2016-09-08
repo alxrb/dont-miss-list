@@ -8,9 +8,15 @@
   right: 0;
   bottom: 0;
   z-index: $z-overlay;
+  background-color: $black;
   background-color: $dml-black-85;
   color: $white;
-  overflow-y: auto;
+  overflow-y: scroll;
+  cursor: pointer;
+  transition: background-color .5s ease;
+  &.is-closed {
+    background-color: transparent;
+  }
   &__close {
     position: fixed;
     right: 2em;
@@ -26,6 +32,9 @@
     cursor: pointer;
     z-index: $z-overlay-upper;
     @include transition;
+    .svg & {
+      background-image: url('../img/icon/close.svg');
+    }
     &:hover {
       right: 1.75em;
       top: .75em;
@@ -37,8 +46,10 @@
   }
   &__content {
     padding-top: ($margin*2);
-    padding-bottom: ($margin*4);
+    padding-bottom: ($margin*8);
     @include box-shadow;
+    cursor: auto;
+    & + & { margin-top: 0 !important; }
   }
   &__content-wrap {
     padding: $margin;
@@ -46,11 +57,12 @@
     background-color: $white;
   }
   &__title {
-    font-size: 2.25em;
+    font-size: 2em;
     line-height: 1.2;
     text-align: center;
     font-weight: 500;
     @include bp(large) {
+      font-size: 2.25em;
       text-align: left;
     };
   }
@@ -65,4 +77,8 @@
     font-size: .8em;
     color: #738a8c;
   }
+}
+
+.disable-scroll {
+  overflow: hidden;
 }
