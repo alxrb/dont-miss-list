@@ -58,6 +58,12 @@ hr {
       background-color: $dml-blue-dark;
     }
   }
+  &--disabled,
+  &--disabled:hover {
+    color: $white;
+    border-color: $dml-gray;
+    background-color: $dml-gray;
+  }
   * + & { margin-top: 1em; }
 }
 

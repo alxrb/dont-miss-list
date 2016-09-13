@@ -13,26 +13,20 @@
             </div>
           </div>
           <div class="row__column modal__top-cta">
-            <a id="landing-cta-top-{{offer.id}}" href="{{offer.link}}" class="btn btn--blue">
-              {% if offer.custom-cta %}
-                {{ offer.custom-cta }}
-              {% else %}
-                Claim Offer
-              {% endif %}
-            </a>
+            {% if current-edition.active-offers %}
+              {% include landing-page/btn.html class-modifier="top" %}
+            {% else %}
+              {% include landing-page/btn-disabled.html %}
+            {% endif %}
           </div>
         </div>
         <div class="row modal__description">
           {{offer.long-copy}}
         </div>
         <div class="row align-center">
-          <a id="landing-cta-bottom-{{offer.id}}" href="{{offer.link}}" class="btn btn--blue btn--large">
-            {% if offer.custom-cta %}
-              {{ offer.custom-cta }}
-            {% else %}
-              Claim Offer
-            {% endif %}
-          </a>
+          {% if current-edition.active-offers %}
+            {% include landing-page/btn.html class-modifier="bottom" size="large" %}
+          {% endif %}
         </div>
         <hr class="row">
         <div class="row modal__terms">
