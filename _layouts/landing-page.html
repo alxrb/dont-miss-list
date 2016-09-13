@@ -9,7 +9,7 @@ class: landing-page
 
 {% include landing-page/introduction.html %}
 
-{% unless current-edition.active-offers %}
+{% if current-edition.active-offers == null %}
   <div class="expired-message row row--padding row--columns-8-4-gutters row--columns-vertical-align">
     <div class="row__column">
       <h3 class="expired-message__title">Offers expired</h3>
@@ -19,7 +19,7 @@ class: landing-page
       <a class="btn btn--white btn-small" href="{{site.baseurl}}{{latest-edition[0].link}}">See current offers</a>
     </div>
   </div>
-{% endunless %}
+{% endif %}
 
 <div class="section row row--padding">
   <div class="row  row--columns-4-4-4-gutters">
@@ -27,10 +27,10 @@ class: landing-page
   </div>
 </div>
 
-{% unless current-edition.active-offers %}
+{% if current-edition.active-offers == null %}
   <div class="section row--padding align-center">
     <a class="btn btn--blue" href="{{site.baseurl}}{{latest-edition[0].link}}">See Current Offers</a>
   </div>
-{% endunless %}
+{% endif %}
 
 {% include landing-page/offer-modal-content.html %}
