@@ -34,3 +34,21 @@ class: landing-page
 {% endif %}
 
 {% include landing-page/offer-modal-content.html %}
+
+<script>
+  // split date
+  var year = '{{current-edition.date | date: "%Y" }}',
+      month = '{{current-edition.date | date: "%m" }}',
+      day = '{{current-edition.date | date: "%d" }}';
+
+  // generates expiry date by increasing month with zero padding
+  month++;
+  if (month >= 13) {
+    month = '01';
+  } else if (month < 10) {
+    month = '0' + month;
+  }
+
+  // generated expiry date
+  var ExpiryDate = year + '/' + month + '/' + day;
+</script>

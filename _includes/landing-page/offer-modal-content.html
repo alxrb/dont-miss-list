@@ -20,15 +20,22 @@
             {% endif %}
           </div>
         </div>
+        {% if current-edition.active-offers %}
+          <div class="js-countdown countdown row"></div>
+        {% endif %}
         <div class="row modal__description">
-          {{offer.long-copy}}
+          <div class="row">
+            {{offer.long-copy}}
+          </div>
         </div>
+        {% if current-edition.active-offers %}
         <div class="row align-center">
-          {% if current-edition.active-offers %}
-            {% include landing-page/btn.html class-modifier="bottom" size="large" %}
-          {% endif %}
+          {% include landing-page/btn.html class-modifier="bottom" size="large" %}
+          <div class="js-countdown countdown row"></div>
         </div>
-        <hr class="row">
+        {% else %}
+          <hr class="row">
+        {% endif %}
         <div class="row modal__terms">
           <h4>Terms &amp; Conditions</h4>
           {{offer.terms-and-conditions}}

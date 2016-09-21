@@ -174,5 +174,29 @@
     });
 
 
+///////////////////////////////////////
+//    Offer Countdown
+///////////////////////////////////////
+
+  // neat way to give the css classes to each element of countdown
+  function countdownSpanWrap(timeUnit, timeLabel) {
+    return '<span class="countdown__unit">' + timeUnit + ' <span class="countdown__label">' + timeLabel + '</span> </span>';
+  }
+
+  // init countdown plugin - specific structure, format & time labels
+  $('.js-countdown').countdown(ExpiryDate)
+    .on('update.countdown', function(event) {
+      var format = countdownSpanWrap('%-H', 'hrs') + countdownSpanWrap('%-M', 'mins') + countdownSpanWrap('%-S', 'sec');
+      if(event.offset.daysToWeek > 0) {
+        format = countdownSpanWrap('%-d', 'day%!d') + " " + format;
+      }
+      if(event.offset.weeks > 0) {
+        format = countdownSpanWrap('%-w', 'week%!w') + " " + format;
+      }
+      format = '<div class="countdown__wrap"> <div class="countdown__title">expires in:</div> <div class="countdown__time">' + format + '</div>';
+      $(this).html(event.strftime(format));
+    });
+
+
 ///////////////////////////////////////////////////////////////////////////////
 });})(jQuery, this); // on ready end
