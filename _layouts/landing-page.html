@@ -10,26 +10,28 @@ class: landing-page
 {% include landing-page/introduction.html %}
 
 {% if current-edition.active-offers == null %}
-  <div class="expired-message row row--padding row--columns-8-4-gutters row--columns-vertical-align">
-    <div class="row__column">
-      <h3 class="expired-message__title">Offers expired</h3>
-      <p>Sorry, but all of these offers are no longer running. See our latest edition for the current offers </p>
-    </div>
-    <div class="row__column expired-message__btn-wrap">
-      <a class="btn btn--white btn-small" href="{{site.baseurl}}{{latest-edition[0].link}}">See current offers</a>
+  <div class="row row--padding">
+    <div class="expired-message row row--padding row--columns-8-4-gutters row--columns-vertical-align">
+      <div class="row__column">
+        <h3 class="expired-message__title">Offers expired</h3>
+        <p>Sorry, but all of these offers are no longer running. See our latest edition for the current offers </p>
+      </div>
+      <div class="row__column expired-message__btn-wrap">
+        <a id="btn-expired-to-current-offers-top" class="btn btn--blue btn-small" href="{{site.baseurl}}{{latest-edition[0].link}}">See current offers</a>
+      </div>
     </div>
   </div>
 {% endif %}
 
-<div class="section row row--padding">
-  <div class="row  row--columns-4-4-4-gutters">
+<div class="section row row--padding row--no-margin">
+  <div class="row row--columns-4-4-4-gutters">
     {% include landing-page/offer.html %}
   </div>
 </div>
 
 {% if current-edition.active-offers == null %}
   <div class="section row--padding align-center">
-    <a class="btn btn--blue" href="{{site.baseurl}}{{latest-edition[0].link}}">See Current Offers</a>
+    <a id="btn-expired-to-current-offers-bottom" class="btn btn--blue" href="{{site.baseurl}}{{latest-edition[0].link}}">See Current Offers</a>
   </div>
 {% endif %}
 

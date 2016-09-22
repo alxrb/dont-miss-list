@@ -43,29 +43,6 @@
 
 
 ///////////////////////////////////////
-//        Navigation
-///////////////////////////////////////
-
-  // // mobile nav open
-  // $('.js-mobile-menu-open').on('click', function(e) {
-  //   e.preventDefault();
-  //   $(this).addClass('mobile-icon__menu--open');
-  //   $('.mobile-menu').toggleClass('mobile-menu--open');
-  // });
-
-  // // mobile nav close
-  // $('.js-mobile-menu-close').on('click', function(e) {
-  //   e.preventDefault();
-  //   $('.js-mobile-menu-open').removeClass('mobile-icon__menu--open');
-  //   $('.mobile-menu').toggleClass('mobile-menu--open');
-  // });
-
-  // // current page nav highlight
-  // var currentPage = $('body').data('current-page');
-  // $('.' + currentPage + ' .microsite-nav__item--' + currentPage).addClass('microsite-nav__item--current');
-
-
-///////////////////////////////////////
 //      SVG image swap
 ///////////////////////////////////////
 
@@ -118,8 +95,8 @@
       modal.show(0, function() {
         // switch classes when open
         $(this).removeClass('is-closed').addClass('is-open');
-        // show offer content with fade
-        offerContent.fadeIn(350, function() {
+        // show offer content with fade - modal bg is css transition
+        offerContent.fadeIn(250, function() {
           // switch classes when open
           $(this).removeClass('is-closed').addClass('is-open');
         });
@@ -128,8 +105,8 @@
 
     // closes modal
     function modalClose(){
-      // close modal with fade
-      modal.fadeOut(400, function() {
+      // close modal with fade - modal bg is css transition
+      modal.fadeOut(250, function() {
         // enable scrolling
         $('body').removeClass('disable-scroll');
         // close open offer in modal
