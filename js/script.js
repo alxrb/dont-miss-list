@@ -43,29 +43,6 @@
 
 
 ///////////////////////////////////////
-//        Navigation
-///////////////////////////////////////
-
-  // // mobile nav open
-  // $('.js-mobile-menu-open').on('click', function(e) {
-  //   e.preventDefault();
-  //   $(this).addClass('mobile-icon__menu--open');
-  //   $('.mobile-menu').toggleClass('mobile-menu--open');
-  // });
-
-  // // mobile nav close
-  // $('.js-mobile-menu-close').on('click', function(e) {
-  //   e.preventDefault();
-  //   $('.js-mobile-menu-open').removeClass('mobile-icon__menu--open');
-  //   $('.mobile-menu').toggleClass('mobile-menu--open');
-  // });
-
-  // // current page nav highlight
-  // var currentPage = $('body').data('current-page');
-  // $('.' + currentPage + ' .microsite-nav__item--' + currentPage).addClass('microsite-nav__item--current');
-
-
-///////////////////////////////////////
 //      SVG image swap
 ///////////////////////////////////////
 
@@ -118,8 +95,8 @@
       modal.show(0, function() {
         // switch classes when open
         $(this).removeClass('is-closed').addClass('is-open');
-        // show offer content with fade
-        offerContent.fadeIn(350, function() {
+        // show offer content with fade - modal bg is css transition
+        offerContent.fadeIn(250, function() {
           // switch classes when open
           $(this).removeClass('is-closed').addClass('is-open');
         });
@@ -128,8 +105,8 @@
 
     // closes modal
     function modalClose(){
-      // close modal with fade
-      modal.fadeOut(400, function() {
+      // close modal with fade - modal bg is css transition
+      modal.fadeOut(250, function() {
         // enable scrolling
         $('body').removeClass('disable-scroll');
         // close open offer in modal
@@ -171,6 +148,30 @@
        if (e.keyCode == 27) {
          modalClose();
         }
+    });
+
+
+///////////////////////////////////////
+//    Offer Countdown
+///////////////////////////////////////
+
+  // neat way to give the css classes to each element of countdown
+  function countdownSpanWrap(timeUnit, timeLabel) {
+    return '<span class="countdown__unit">' + timeUnit + ' <span class="countdown__label">' + timeLabel + '</span> </span>';
+  }
+
+  // init countdown plugin - specific structure, format & time labels
+  $('.js-countdown').countdown(ExpiryDate)
+    .on('update.countdown', function(event) {
+      var format = countdownSpanWrap('%-H', 'hrs') + countdownSpanWrap('%-M', 'mins') + countdownSpanWrap('%-S', 'sec');
+      if(event.offset.daysToWeek > 0) {
+        format = countdownSpanWrap('%-d', 'day%!d') + " " + format;
+      }
+      if(event.offset.weeks > 0) {
+        format = countdownSpanWrap('%-w', 'week%!w') + " " + format;
+      }
+      format = '<div class="countdown__wrap"> <div class="countdown__title">expires in:</div> <div class="countdown__time">' + format + '</div>';
+      $(this).html(event.strftime(format));
     });
 
 

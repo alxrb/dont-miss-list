@@ -28,6 +28,7 @@ $grid-spacing: gutter();
   @include container( $xxlarge );
   position: relative;
   & + .row { margin-top: $margin; }
+  &--no-margin {margin-top: 0 !important;}
 }
 
 .row--padding {

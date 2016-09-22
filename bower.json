@@ -11,6 +11,7 @@
   ],
   "devDependencies": {
     "jquery": "1.11.1",
-    "susy": "~2.2.6"
+    "susy": "~2.2.6",
+    "jquery.countdown": "^2.2.0"
   }
 }

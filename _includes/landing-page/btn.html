@@ -1,0 +1,7 @@
+<a id="landing-cta-{{include.class-modifier}}-{{offer.id}}" href="{{offer.link}}" class="btn btn--blue {% if include.size == "large" %}btn--large{% endif %}">
+  {% if offer.custom-cta %}
+    {{ offer.custom-cta }}
+  {% else %}
+    Claim Offer
+  {% endif %}
+</a>
