@@ -18,7 +18,7 @@
                 <!-- OFFER IMAGE -->
                 <tr>
                   <td>
-                    <a href="{{ item.link }}"><img class="img-max" width="600" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
+                    <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}"><img class="img-max" width="600" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
                   </td>
                 </tr>
                 <!-- OFFER CONTENT WRAP -->
@@ -40,7 +40,7 @@
                       <!-- OFFER BUTTON -->
                       <tr>
                         <td align="center" style="width: 100%;">
-                          <a href="{{ item.link }}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 13px; letter-spacing: .2em; font-weight: 600; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 53px solid #3bc3cf; border-right: 53px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
+                          <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 13px; letter-spacing: .2em; font-weight: 600; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 53px solid #3bc3cf; border-right: 53px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
                             {% if item.custom-cta %}
                               {{ item.custom-cta }}
                             {% else %}
