@@ -2,7 +2,7 @@ active-offers: true
 name: October 2016
 date: 28-10-2016
 link: /2016/10
-subject-line: Put down the candy and walk away from the bonfire – it’s time to plan a getaway!
+subject-line: Put down the sweets and walk away from the bonfire – it’s time to plan a getaway!
 description: Here’s October’s edition of our top picks – an unmissable mix of unforgettable days out and incomparable luxury escapes – for member’s only. From sunny villa holidays, luxury cottages, to catching the best shows on the West End, we’ve curated deals and offers that we think you need to know about. Because let’s face it; the days are drawing in as the nights get longer, it’s cold, and Christmas is still too many days away. We all need a November pick me up!
 short-description: From sunny villa holidays, luxury cottages, to catching the best shows on the West End, we’ve curated deals and offers that we think you need to know about. Because let’s face it; the days are drawing in as the nights get longer, it’s cold, and Christmas is still too many days away. We all need a November pick me up!
 
@@ -35,9 +35,19 @@ offers:
   - id: weswap
     brand: WeSwap
     title: Get £10 free travel money with WeSwap
-    short-copy: The biggest concern about travelling outside of the UK at the moment is the exchange rate. Make the most of your travel money with WeSwap and save up to 90% versus to banks and bureaus. Plus sign-up now via Secret Escapes and you'll receive £10 Free Travel Money
+    short-copy: The biggest concern about travelling outside of the UK at the moment is the exchange rate. Make the most of your travel money with WeSwap and save up to 90% versus banks and bureaus. Plus sign-up now via Secret Escapes and you'll receive £10 Free Travel Money
     long-copy: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <p><strong>Make more of your time abroad with WeSwap</strong></p>
+      <p>WeSwap.com is the new way to get travel money. Swap your money direct with other travellers and save up to 90% versus to banks and bureaux. Sign-up via Secret Escapes and you'll receive £10 Free Travel Money on your WeSwap MasterCard® prepaid debit card.</p>
+      <p><strong>I’m keen to join in, how does it work?</strong></p>
+      <p>1.	Join to receive your WeSwap MasterCard® prepaid debit card and £10 Free Travel Money</p>
+      <p>2.	Load up your WeSwap card securely with ££ using your debit card or bank transfer via the WeSwap web or app</p>
+      <p>3.	Swap – Choose which currency you need. We take care of swapping your money with fellow travellers. Everyone gets the fairest rate.</p>
+      <p>4.	Spend & Enjoy – Your card now holds a new currency. You can use your card worldwide, everywhere MasterCard® is welcome.</p>
+      <p><strong>All your currencies on one card</strong></p>
+      <p>Keep your WeSwap card with your passport and before you head off on your next holiday, simply swap your money into any (or all) of 18 currencies and your clever WeSwap card automatically uses the right one.</p>
+      <p>Money left on your card after your trip? It'll stay safely on your card - swap it to another currency anytime, or swap it back and use it at home. </p>
+      <p><strong>Join via Secret Escapes, to get £10 Free Travel Money on your WeSwap card. </strong></p>
     link: https://www.weswap.com/secretescapes
     email-link: https://www.weswap.com/secretescapes
     custom-cta: Join for free
@@ -70,7 +80,7 @@ offers:
 
   - id: toad-hall-cottages
     brand: Toad Hall Cottages
-    title: Escapes to a luxury property exclusively for you
+    title: Escape to a luxury property exclusively for you
     short-copy: Find peace and seclusion in the best locations throughout the south west of the UK, something is bound to catch your eye for an unique break in 2017.  Choose from the luxury collection from the award winning agency Toad Hall Cottages.
     long-copy: >
       <p><strong>Find a luxury property with the exclusive collection on Toad Hall Cottages</strong></p>
@@ -86,7 +96,7 @@ offers:
 
   - id: red-letter-days
     brand: Red Letter Days
-    title: Not sure what to do next? Here's 20% off your next adventure
+    title: Not sure what to do next? Here's an idea for your next adventure.
     short-copy: Use promo code <strong>SECRET20</strong> and save 20% on once in the lifetime experiences with Red Letter Days. Their wide range of experiences mean there is something to suit every taste; from afternoon tea in elegant surroundings to a weekend spent driving some of the world's most exhilarating supercars.
     long-copy: >
       <p><strong>Not sure what to do this month?</strong></p>
@@ -106,8 +116,8 @@ offers:
 
   - id: school-of-rock
     brand: School of Rock - London Theatre Direct
-    title: Can straight A pupils into a guitar-shredding, bass-slapping, mind-blowing rock band?
-    short-copy: Following its triumphant Broadway opening; School of Rock The Musical opens in the West End on 14th November. Based on the iconic, hit movie, this irresistible new musical follows Dewey Finn, a failed, wannabe rock star who poses as a supply teacher at a prestigious prep school. But can he turn a class of straight A pupils into a mind-blowing rock band?
+    title: School of Rock the Musical rocks into this autumn
+    short-copy: Following its triumphant Broadway opening, School of Rock The Musical opens in the West End on 14th November. Based on the iconic, hit movie, this irresistible new musical follows Dewey Finn, a failed, wannabe rock star who poses as a supply teacher at a prestigious prep school. But can he turn a class of straight A pupils into a mind-blowing rock band?
     long-copy: >
       <p><strong>London Theatre Direct - helping you from no the best tickets and prices</strong></p>
       <p><strong>School of Rock</strong></p>
@@ -124,7 +134,7 @@ offers:
 
   - id: curious-incident
     brand: Curious Incident - London Theatre Direct
-    title: See the unmissable multi award winner
+    title: Book now for this unmissable multi-award winning production
     short-copy: The National Theatre’s award-winning production of <strong>The Curious Incident of the Dog in the Night-Time</strong> is playing at the Gielgud Theatre in London’s West End. Winner of 7 Olivier Awards and 5 Tony Awards® this really is an unmissable production.
     long-copy: >
       <p><strong>London Theatre Direct - helping you from no the best tickets and prices</strong></p>
@@ -142,15 +152,15 @@ offers:
 
   - id: charlie
     brand: Charlie - London Theatre Direct
-    title: A must see before the gates close
+    title: Book your tickets now before Wonka's factory gates close on 7th January
     short-copy: Now in it’s fourth and final golden year, don’t miss your last chance to see Roald Dahl’s deliciously dark tale of Charlie Bucket and the mysterious confectioner Willy Wonka. A chocolate garden, an army of squirrels and the curiously peculiar Oompa-Loompas must be believed to be seen.
     long-copy: >
       <p><strong>London Theatre Direct - helping you from no the best tickets and prices</strong></p>
       <p><strong>Charlie and the Chocolate Factory</strong></p>
       <p>Now in it’s fourth and final golden year, don’t miss your last chance to see Roald Dahl’s deliciously dark tale of Charlie Bucket and the mysterious confectioner Willy Wonka, directed by Academy Award®  winner Sam Mendes.</p>
       <p>A chocolate garden, an army of squirrels and the curiously peculiar Oompa-Loompas must be believed to be seen in this gigantic musical that is choc-full of fantastical treats to dazzle your senses.</p>
-    link: https://secretescapes.ltdtickets.com/play/1172/the-curious-incident-of-the-dog-in-the-night-time-tickets.aspx
-    email-link: https://secretescapes.ltdtickets.com/play/1172/the-curious-incident-of-the-dog-in-the-night-time-tickets.aspx
+    link: https://secretescapes.ltdtickets.com/musical/1120/charlie-and-the-chocolate-factory-tickets.aspx
+    email-link: https://secretescapes.ltdtickets.com/musical/1120/charlie-and-the-chocolate-factory-tickets.aspx
     custom-cta: Must See
     terms-and-conditions: >
       <ol>
@@ -160,7 +170,7 @@ offers:
 
   - id: cinderella
     brand: cinderella - London Theatre Direct
-    title: The most enchanting Christmas show
+    title: Pantomime is coming home to the London Palladium - for 5 weeks only!
     short-copy: The most enchanting rags to riches fairy tale of them all graces the stage of the West End’s most famous theatre this Christmas. This lavish and spectacular production has an all-star cast so book your seats today, otherwise not even your Fairy Godmother will be able to magic you a ticket for London’s must-see festive show.
     long-copy: >
       <p><strong>London Theatre Direct - helping you from no the best tickets and prices</strong></p>
