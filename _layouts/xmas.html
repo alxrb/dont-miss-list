@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+
+THIS TEMPLATE IS HARDCODED TO SAVE TIME
+not sure how often we are going to do these special editions, but I'm just treating this one as separate for the time being. I've copied in the component blocks and made individual edits for the xmas theme
+
+-->
+
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/xmas.css">
+  </head>
+
+  <body id="top" class="{% if page.class %}{{ page.class }}{% endif %}" {% if page.class %}data-current-page="{{ page.class }}"{% endif %}>
+
+    {% include tracking.html %}
+
+    {% assign current-edition = site.data.editions.[page.edition] %}
+    {% assign offers = current-edition.offers %}
+    {% assign latest-edition = site.data.editions | where: "active-offers", "true" %}
+
+    <div class="xmas">
+      <div class="xmas__wrap">
+        <div class="xmas__logo">
+          <a href="{{site.baseurl}}"><img src="{{site.baseurl}}/img/xmas/logo-dont-miss-list.png" alt="Dont Miss List logo"></a>
+        </div>
+        <div class="xmas__title">
+          <h1 class="introduction__title hidden">{{ current-edition.subject-line }}</h1>
+          <h2 class="introduction__date hidden">{{current-edition.date | date: '%Y' }}</h2>
+          <img class="js-svg-swap" src="{{site.baseurl}}/img/xmas/title-xmas.png" alt="Xmas Gift List 2016">
+        </div>
+      </div>
+      <div class="xmas__description">
+        <div class="row row--padding">
+          <p>{{ current-edition.description }}</p>
+          <a class="btn btn--small btn--white" href="email">View email</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+
+      {% if current-edition.active-offers == null %}
+        <div class="row row--padding">
+          <div class="expired-message row row--padding row--columns-8-4-gutters row--columns-vertical-align">
+            <div class="row__column">
+              <h3 class="expired-message__title">Offers expired</h3>
+              <p>Sorry, but all of these offers are no longer running. See our latest edition for the current offers </p>
+            </div>
+            <div class="row__column expired-message__btn-wrap">
+              <a id="btn-expired-to-current-offers-top" class="btn btn--blue btn-small" href="{{site.baseurl}}{{latest-edition[0].link}}">See current offers</a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="section row row--padding row--no-margin">
+        <div class="row row--columns-4-4-4-gutters">
+          {% include landing-page/offer.html %}
+        </div>
+      </div>
+
+      {% if current-edition.active-offers == null %}
+        <div class="section row--padding align-center">
+          <a id="btn-expired-to-current-offers-bottom" class="btn btn--blue" href="{{site.baseurl}}{{latest-edition[0].link}}">See Current Offers</a>
+        </div>
+      {% endif %}
+
+      <div class="js-modal modal is-closed">
+
+        <div class="js-modal__close modal__close"></div>
+
+        {% for offer in offers %}
+          <div class="modal__content modal__content--{{offer.id}} is-closed row row--padding">
+            <div class="bg-image-ratio bg-image-ratio--16-9" style="background-image: url('{{site.baseurl}}/img/edition/{{page.edition}}/offer-{{offer.id}}.jpg');"></div>
+            <div class="modal__content-wrap">
+              <div class="row row--columns-8-4 row--columns-vertical-align">
+                <div class="row__column">
+                  <div class="modal__title">
+                    {{offer.title}}
+                  </div>
+                </div>
+                <div class="row__column modal__top-cta">
+                  {% if current-edition.active-offers %}
+                    {% include landing-page/btn.html class-modifier="top" %}
+                  {% else %}
+                    {% include landing-page/btn-disabled.html %}
+                  {% endif %}
+                </div>
+              </div>
+              {% if current-edition.active-offers %}
+                <div class="js-offer-countdown countdown row" data-year="{{offer.expires-date | date: '%Y' }}" data-month="{{offer.expires-date | date: '%m' }}" data-day="{{offer.expires-date | date: '%d' }}"></div>
+              {% endif %}
+              <div class="row modal__description">
+                <div class="row">
+                  {{offer.long-copy}}
+                </div>
+              </div>
+              {% if current-edition.active-offers %}
+              <div class="row align-center">
+                {% include landing-page/btn.html class-modifier="bottom" size="large" %}
+                <div class="js-offer-countdown countdown row" data-year="{{offer.expires-date | date: '%Y' }}" data-month="{{offer.expires-date | date: '%m' }}" data-day="{{offer.expires-date | date: '%d' }}"></div>
+              </div>
+              {% else %}
+                <hr class="row">
+              {% endif %}
+              <div class="row modal__terms">
+                <h4>Terms &amp; Conditions</h4>
+                {{offer.terms-and-conditions}}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+

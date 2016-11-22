@@ -160,18 +160,54 @@
     return '<span class="countdown__unit">' + timeUnit + ' <span class="countdown__label">' + timeLabel + '</span> </span>';
   }
 
+  // countdown for the global issue expiry date
   // init countdown plugin - specific structure, format & time labels
-  $('.js-countdown').countdown(ExpiryDate)
-    .on('update.countdown', function(event) {
-      var format = countdownSpanWrap('%-H', 'hrs') + countdownSpanWrap('%-M', 'mins') + countdownSpanWrap('%-S', 'sec');
-      if(event.offset.daysToWeek > 0) {
-        format = countdownSpanWrap('%-d', 'day%!d') + " " + format;
-      }
-      if(event.offset.weeks > 0) {
-        format = countdownSpanWrap('%-w', 'week%!w') + " " + format;
-      }
-      format = '<div class="countdown__wrap"> <div class="countdown__title">expires in:</div> <div class="countdown__time">' + format + '</div>';
-      $(this).html(event.strftime(format));
+  if ( typeof ExpiryDate != 'undefined') {
+    $('.js-countdown').countdown(ExpiryDate)
+      .on('update.countdown', function(event) {
+        var format = countdownSpanWrap('%-H', 'hrs') + countdownSpanWrap('%-M', 'mins') + countdownSpanWrap('%-S', 'sec');
+        if(event.offset.daysToWeek > 0) {
+          format = countdownSpanWrap('%-d', 'day%!d') + " " + format;
+        }
+        if(event.offset.weeks > 0) {
+          format = countdownSpanWrap('%-w', 'week%!w') + " " + format;
+        }
+        format = '<div class="countdown__wrap"> <div class="countdown__title">expires in:</div> <div class="countdown__time">' + format + '</div>';
+        $(this).html(event.strftime(format));
+      });
+  }
+
+  // countdown for the single offer expiry date
+  $('.js-offer-countdown').each(function() {
+    var offerExpiryDate = $(this).data('year') + '/' + $(this).data('month') + '/' + $(this).data('day');
+    //
+    // init countdown plugin - specific structure, format & time labels
+    $(this).countdown(offerExpiryDate)
+      .on('update.countdown', function(event) {
+        var format = countdownSpanWrap('%-H', 'hrs') + countdownSpanWrap('%-M', 'mins') + countdownSpanWrap('%-S', 'sec');
+        if(event.offset.daysToWeek > 0) {
+          format = countdownSpanWrap('%-d', 'day%!d') + " " + format;
+        }
+        if(event.offset.weeks > 0) {
+          format = countdownSpanWrap('%-w', 'week%!w') + " " + format;
+        }
+        format = '<div class="countdown__wrap"> <div class="countdown__title">expires in:</div> <div class="countdown__time">' + format + '</div>';
+        $(this).html(event.strftime(format));
+      })
+      .on('finish.countdown', function(event) {
+        // disables the expired offer
+        var parent = $(this).closest('.modal__content');
+        // remove last cta button
+        var lastButton = $('a.btn--large',parent);
+        // add in hr
+        lastButton.after('<hr class="row">');
+        lastButton.remove();
+        // disable cta button
+        $('a.btn',parent).text('Offer Expired').attr('class', 'btn btn--disabled').removeAttr('href');
+        // remove countdown block
+        $(this).remove();
+      });
+
     });
 
 

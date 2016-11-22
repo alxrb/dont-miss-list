@@ -1,0 +1,159 @@
+active-offers: true
+name: November 2016
+date: 25-11-2016
+link: /2016/11
+subject-line: Xmas gift list
+description: Here’s October’s edition of our top picks – an unmissable mix of unforgettable days out and incomparable luxury escapes – for member’s only. From sunny villa holidays, luxury cottages, to catching the best shows on the West End, we’ve curated deals and offers that we think you need to know about. Because let’s face it; the days are drawing in as the nights get longer, it’s cold, and Christmas is still too many days away. We all need a November pick me up!
+short-description: Here’s October’s edition of our top picks – an unmissable mix of unforgettable days out and incomparable luxury escapes – for member’s only. From sunny villa holidays, luxury cottages, to catching the best shows on the West End, we’ve curated deals and offers that we think you need to know about.
+
+articles:
+  - id: lima
+    title: Explore Peru's Dramatic landscapes & bustling cityscapes
+    link: https://ad.doubleclick.net/ddm/clk/311010010;138765607;l
+  - id: cornwall
+    title: 13 reasons to visit Cornwall in autumn and winter
+    link: http://blog.secretescapes.com/2016/09/15/13-things-cornwall-cold-weather-autumn-winter/
+
+offers:
+
+  - id: offer-2-col
+    brand: unknown
+    expires-date: 10-12-2016
+    title: Offer with 2 sub offers
+    short-copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis.
+    long-copy: >
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis. Consectetur ut doloribus veniam exercitationem laboriosam ea vero commodi veritatis molestias! Distinctio natus debitis quae rem, quas, recusandae quia non quos voluptate impedit suscipit dicta, expedita sequi veniam porro. Nostrum culpa adipisci tenetur animi! Saepe incidunt ex dicta adipisci minus dolores quis, quam libero quae? Fugiat explicabo, voluptatum commodi, saepe placeat corrupti sapiente!</p>
+      <p>Fugiat eveniet tempora consectetur nisi, facilis aperiam non enim officia fugit praesentium quae modi, pariatur placeat neque at, optio, deserunt repellat quos maxime sunt beatae ratione! Sed quo nemo voluptas laudantium ad error aliquam earum natus dolorem optio soluta, maxime temporibus nisi, est vero, quisquam perferendis et dicta voluptatem nam eum nulla. Eum, amet quidem aut repudiandae, porro molestias reprehenderit illum, reiciendis sint, dolores tenetur! Voluptatum, quisquam, aut? Delectus ex earum eos, non ducimus. Magni culpa expedita, quia labore explicabo?</p>
+      <p>Beatae porro animi error, cum architecto culpa dolor sequi, voluptatum illum amet assumenda nemo. Et dolorum hic, beatae, reiciendis, magni modi nam rem quisquam id autem ut reprehenderit. Eum quam, nemo consequatur earum. Incidunt iste repellat adipisci ipsum deserunt quisquam saepe accusantium earum at quaerat perferendis praesentium, consequuntur deleniti laboriosam voluptatum officiis quasi. Asperiores, hic quas alias dignissimos deserunt numquam praesentium expedita, ratione aliquid animi at delectus tempore rem quos suscipit aliquam dolor eum rerum nostrum vel veritatis qui fugiat.</p>
+      <div class="sub-offers sub-offers--2">
+        <div class="sub-offer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi consequatur, tempora hic sunt exercitationem dolorem, minima laboriosam fugit velit obcaecati explicabo assumenda, rerum delectus. Alias autem, numquam omnis harum ut.</div>
+        <div class="sub-offer">Quas commodi illum voluptatum modi temporibus esse asperiores nostrum distinctio, ad porro cupiditate iste et eum deleniti assumenda a, laudantium dolore quisquam numquam maiores excepturi, minima natus. Ratione, ipsum, doloribus.</div>
+      </div>
+    link: "#landingpage-link"
+    email-link: "#email-link"
+    custom-cta: Custom CTA
+    terms-and-conditions: >
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quam, ratione perspiciatis consequuntur ab amet quis laudantium dolore rerum similique.</li>
+        <li>Maxime natus temporibus, ipsum facilis incidunt magnam, perferendis tempora sed nobis ducimus eius sint. Soluta omnis eos veniam, saepe animi!</li>
+        <li>Ex necessitatibus ad autem doloremque consequuntur dolorum voluptatum, consequatur, eaque neque laudantium omnis ducimus. Doloribus ratione, architecto eum ex ad.</li>
+        <li>Consectetur cupiditate rem, iste aut vel? Enim voluptates quas, in rem unde asperiores expedita cupiditate consectetur? Excepturi at sit repellat.</li>
+        <li>Accusantium suscipit, id deleniti, cumque dignissimos ut, obcaecati molestiae quasi dolore sit harum ducimus est alias incidunt iure! Illo, earum.</li>
+        <li>Id eligendi facilis iusto ea odio assumenda provident porro, veritatis consectetur recusandae vitae debitis veniam laudantium eveniet asperiores nostrum laboriosam.</li>
+        <li>Consequatur, quibusdam. Ad beatae recusandae eveniet adipisci nisi laudantium quo, maiores temporibus libero doloribus unde vero nemo. Amet, voluptates nobis.</li>
+        <li>Eum nesciunt est illo nihil sit, voluptates culpa nemo mollitia neque consequuntur soluta. Vero quis illum optio laboriosam nisi suscipit.</li>
+      </ol>
+    email-sub-offers: >
+      <tr>
+        <td>
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 30px;">
+                      <!-- CONTENT START -->
+                      content
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 30px;">
+                      <!-- CONTENT START -->
+                      content
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+        </td>
+      </tr>
+
+  - id: offer-3-col
+    brand: unknown
+    expires-date: 15-12-2016
+    title: Offer with 3 sub offers
+    short-copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis.
+    long-copy: >
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis. Consectetur ut doloribus veniam exercitationem laboriosam ea vero commodi veritatis molestias! Distinctio natus debitis quae rem, quas, recusandae quia non quos voluptate impedit suscipit dicta, expedita sequi veniam porro. Nostrum culpa adipisci tenetur animi! Saepe incidunt ex dicta adipisci minus dolores quis, quam libero quae? Fugiat explicabo, voluptatum commodi, saepe placeat corrupti sapiente!</p>
+      <p>Fugiat eveniet tempora consectetur nisi, facilis aperiam non enim officia fugit praesentium quae modi, pariatur placeat neque at, optio, deserunt repellat quos maxime sunt beatae ratione! Sed quo nemo voluptas laudantium ad error aliquam earum natus dolorem optio soluta, maxime temporibus nisi, est vero, quisquam perferendis et dicta voluptatem nam eum nulla. Eum, amet quidem aut repudiandae, porro molestias reprehenderit illum, reiciendis sint, dolores tenetur! Voluptatum, quisquam, aut? Delectus ex earum eos, non ducimus. Magni culpa expedita, quia labore explicabo?</p>
+      <p>Beatae porro animi error, cum architecto culpa dolor sequi, voluptatum illum amet assumenda nemo. Et dolorum hic, beatae, reiciendis, magni modi nam rem quisquam id autem ut reprehenderit. Eum quam, nemo consequatur earum. Incidunt iste repellat adipisci ipsum deserunt quisquam saepe accusantium earum at quaerat perferendis praesentium, consequuntur deleniti laboriosam voluptatum officiis quasi. Asperiores, hic quas alias dignissimos deserunt numquam praesentium expedita, ratione aliquid animi at delectus tempore rem quos suscipit aliquam dolor eum rerum nostrum vel veritatis qui fugiat.</p>
+      <div class="sub-offers sub-offers--3">
+        <div class="sub-offer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi consequatur, tempora hic sunt exercitationem dolorem, minima laboriosam fugit velit obcaecati explicabo assumenda, rerum delectus. Alias autem, numquam omnis harum ut.</div>
+        <div class="sub-offer">Quas commodi illum voluptatum modi temporibus esse asperiores nostrum distinctio, ad porro cupiditate iste et eum deleniti assumenda a, laudantium dolore quisquam numquam maiores excepturi, minima natus. Ratione, ipsum, doloribus.</div>
+        <div class="sub-offer">Pariatur vel maiores optio obcaecati facilis qui unde hic minus et laudantium, aliquam dolore, vitae aspernatur sit id quisquam repellendus incidunt blanditiis consectetur atque voluptatum ipsam asperiores. Quas, molestias, id.</div>
+      </div>
+    link: "#landingpage-link"
+    email-link: "#email-link"
+    custom-cta: Custom CTA
+    terms-and-conditions: >
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quam, ratione perspiciatis consequuntur ab amet quis laudantium dolore rerum similique.</li>
+        <li>Maxime natus temporibus, ipsum facilis incidunt magnam, perferendis tempora sed nobis ducimus eius sint. Soluta omnis eos veniam, saepe animi!</li>
+        <li>Ex necessitatibus ad autem doloremque consequuntur dolorum voluptatum, consequatur, eaque neque laudantium omnis ducimus. Doloribus ratione, architecto eum ex ad.</li>
+        <li>Consectetur cupiditate rem, iste aut vel? Enim voluptates quas, in rem unde asperiores expedita cupiditate consectetur? Excepturi at sit repellat.</li>
+        <li>Accusantium suscipit, id deleniti, cumque dignissimos ut, obcaecati molestiae quasi dolore sit harum ducimus est alias incidunt iure! Illo, earum.</li>
+        <li>Id eligendi facilis iusto ea odio assumenda provident porro, veritatis consectetur recusandae vitae debitis veniam laudantium eveniet asperiores nostrum laboriosam.</li>
+        <li>Consequatur, quibusdam. Ad beatae recusandae eveniet adipisci nisi laudantium quo, maiores temporibus libero doloribus unde vero nemo. Amet, voluptates nobis.</li>
+        <li>Eum nesciunt est illo nihil sit, voluptates culpa nemo mollitia neque consequuntur soluta. Vero quis illum optio laboriosam nisi suscipit.</li>
+      </ol>
+    email-sub-offers: >
+      <!-- ENTIRE ROW -->
+      <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <!-- FIRST TWO COLUMNS -->
+            <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="351">
+              <tr>
+                <td>
+                  <!-- FIRST COLUMN -->
+                  <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="168">
+                    <tr>
+                      <td style="padding-top: 30px;">
+                        <!-- CONTENT START -->
+                        content
+                        <!-- CONTENT END -->
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- FIRST COLUMN END -->
+                  <!-- SECOND COLUMN -->
+                  <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="168">
+                    <tr>
+                      <td style="padding-top: 30px;">
+                        <!-- CONTENT START -->
+                        content
+                        <!-- CONTENT END -->
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- SECOND COLUMN -->
+                </td>
+              </tr>
+            </table>
+            <!-- FIRST TWO COLUMNS END -->
+            <!-- THIRD COLUMN -->
+            <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="168">
+              <tr>
+                <td style="padding-top: 30px;">
+                  <!-- CONTENT START -->
+                  content
+                  <!-- CONTENT END -->
+                </td>
+              </tr>
+            </table>
+            <!-- THIRD COLUMN END -->
+          </td>
+        </tr>
+      </table>
+      <!-- ENTIRE ROW END -->

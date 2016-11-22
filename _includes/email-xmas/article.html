@@ -1,0 +1,70 @@
+<!-- editorial-id -->
+
+{% assign edition = page.edition %}
+{% assign articles = site.data.editions.[page.edition].articles %}
+
+{% for item in articles %}
+  {% if item.id == include.article-id %}
+
+  <!-- EDITORIAL FEATURE -->
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td bgcolor="#ffffff" align="center" style="padding-bottom: 44px;">
+        <!-- CONTENT WRAP -->
+        <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table" style="box-shadow: 0px 4px 10px 0px rgba(6,27,52,.25); border: 1px solid #dae0e1;">
+          <tr>
+            <td class="editorial--padding" style="padding: 22px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="556" class="responsive-table">
+                <tr>
+                  <td valign="middle" style="vertical-align:middle;">
+
+                    <!-- LEFT COLUMN -->
+                    <table class="column--first responsive-table" align="left" cellpadding="0" cellspacing="0" border="0" width="266" style="height: 176px;">
+                      <tr>
+                        <td align="center" valign="middle" style="vertical-align:middle;">
+                          <a href="{{ item.link }}">
+                            <img src="{{ site.baseurl }}/img/edition/{{ edition }}/email/article-{{ item.id }}.jpg" width="266" height="176" style="display: block;" alt="{{ item.title }}" border="0" class="img-max" />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- END - LEFT COLUMN -->
+
+                    <!-- RIGHT COLUMN -->
+                    <table class="responsive-table" align="right" cellpadding="0" cellspacing="0" border="0" width="266" style="height: 176px;">
+                      <tr>
+                        <td align="left" valign="middle" style="vertical-align:middle;">
+                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                              <td class="mobile-center-align" style="color: #384f51; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 22px; line-height: 30px; letter-spacing: .02em; font-weight: 300; padding-bottom:18px;">
+                                {{ item.title }}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="mobile-center-align" align="left">
+                                <span style="display: inline-block; border: 1px solid #9ec6f2; background-color: #e5effb; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+                                  <a href="{{ item.link }}" style="color: #217cef; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 13px; letter-spacing: .2em; font-weight: 600; background-color: #e5effb; border-top: 12px solid #e5effb; border-bottom: 12px solid #e5effb; border-left: 53px solid #e5effb; border-right: 53px solid #e5effb; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
+                                    Read More
+                                  </a>
+                                </span>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- END - RIGHT COLUMN -->
+
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- END - CONTENT WRAP -->
+      </td>
+    </tr>
+  </table>
+
+  {% endif %}
+{% endfor %}

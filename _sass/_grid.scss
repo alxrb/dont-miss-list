@@ -112,3 +112,27 @@ $grid-spacing: gutter();
   }
 
 }
+
+.sub-offer {
+  & + & { margin-top: ($margin/2); }
+  @include bp(xlarge){
+    & + & { margin-top: 0; }
+  }
+}
+
+
+// !!!!!!!!!!!!!!!!!! might not need this, can use the grid already
+.sub-offers {
+  @include container();
+  @include layout(12 $gutters);
+  position: relative;
+  @include bp(xlarge){
+    &--2 .sub-offer  {
+      @include gallery(6);
+    }
+    &--3 .sub-offer  {
+      @include gallery(4);
+    }
+  }
+}
+

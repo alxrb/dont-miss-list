@@ -1,0 +1,108 @@
+{% assign edition = page.edition %}
+{% assign offers = site.data.editions.[page.edition].offers %}
+{% assign edition-link = site.data.editions.[page.edition].link %}
+
+<!-- 2 COL OFFERS -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#e9f1f2" align="center" style="padding-bottom: 44px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="600"class="responsive-table">
+        <tr>
+          <td>
+
+  {% for item in offers %}
+    {% if item.id == include.offer-one-id %}
+      <!-- FIRST COLUMN -->
+      <table align="left" border="0" cellspacing="0" cellpadding="0" class="column--first responsive-table" width="288" style="box-shadow: 0px 4px 10px 0px rgba(6,47,52,.075);">
+        <!-- OFFER IMAGE -->
+        <tr>
+          <td>
+            <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}"><img class="img-max" width="288" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
+          </td>
+        </tr>
+        <!-- OFFER CONTENT WRAP -->
+        <tr>
+          <td class="height-auto" bgcolor="#ffffff" valign="top" style="padding: 27px 33px 33px;" height="{{ include.offer-height }}">
+            <table border="0" cellpadding="0" cellspacing="0" width="222" class="responsive-table">
+              <!-- OFFER TITLE -->
+              <tr>
+                <td align="center" style="color: #384f51; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 18px; line-height: 22px; letter-spacing: .025em; padding-bottom: 18px; font-weight: 700;">
+                  {{ item.title }}
+                </td>
+              </tr>
+              <!-- OFFER COPY -->
+              <tr>
+                <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 18px;">
+                  {{ item.short-copy }}
+                </td>
+              </tr>
+              <!-- OFFER BUTTON -->
+              <tr>
+                <td align="center">
+                  <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 13px; letter-spacing: .2em; font-weight: 600; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 33px solid #3bc3cf; border-right: 33px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
+                    {% if item.custom-cta %}
+                      {{ item.custom-cta }}
+                    {% else %}
+                      View Offer
+                    {% endif %}
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END - FIRST COLUMN -->
+      {% endif %}
+
+      {% if item.id == include.offer-two-id %}
+        <!-- SECOND COLUMN -->
+        <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="288" style="box-shadow: 0px 4px 10px 0px rgba(6,47,52,.075);">
+          <!-- OFFER IMAGE -->
+          <tr>
+            <td>
+              <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}"><img class="img-max" width="288" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
+            </td>
+          </tr>
+          <!-- OFFER CONTENT WRAP -->
+          <tr>
+            <td class="height-auto" bgcolor="#ffffff" valign="top" style="padding: 27px 33px 33px;" height="{{ include.offer-height }}">
+              <table border="0" cellpadding="0" cellspacing="0" width="222" class="responsive-table">
+                <!-- OFFER TITLE -->
+                <tr>
+                  <td align="center" style="color: #384f51; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 18px; line-height: 22px; letter-spacing: .025em; padding-bottom: 18px; font-weight: 700;">
+                    {{ item.title }}
+                  </td>
+                </tr>
+                <!-- OFFER COPY -->
+                <tr>
+                  <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 18px;">
+                    {{ item.short-copy }}
+                  </td>
+                </tr>
+                <!-- OFFER BUTTON -->
+                <tr>
+                  <td align="center">
+                    <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 13px; letter-spacing: .2em; font-weight: 600; background-color: #3bc3cf; border-top: 12px solid #3bc3cf; border-bottom: 12px solid #3bc3cf; border-left: 33px solid #3bc3cf; border-right: 33px solid #3bc3cf; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
+                      {% if item.custom-cta %}
+                        {{ item.custom-cta }}
+                      {% else %}
+                        View Offer
+                      {% endif %}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- END - SECOND COLUMN -->
+      {% endif %}
+  {% endfor %}
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
