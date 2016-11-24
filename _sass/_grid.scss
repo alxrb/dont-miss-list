@@ -105,34 +105,20 @@ $grid-spacing: gutter();
     margin-bottom: gutter();
   }
 
+  // four columns without gutter
+  .row--columns-3-3-3-3 .row__column { @include gallery(3); }
+
+  // four columns with gutter
+  .row--columns-3-3-3-3-gutters .row__column {
+    @include gallery($gutters 3);
+    margin-bottom: gutter();
+  }
+
   // vertical align floated columns
   .row--columns-vertical-align {
     display: flex;
     align-items: center;
   }
 
-}
-
-.sub-offer {
-  & + & { margin-top: ($margin/2); }
-  @include bp(xlarge){
-    & + & { margin-top: 0; }
-  }
-}
-
-
-// !!!!!!!!!!!!!!!!!! might not need this, can use the grid already
-.sub-offers {
-  @include container();
-  @include layout(12 $gutters);
-  position: relative;
-  @include bp(xlarge){
-    &--2 .sub-offer  {
-      @include gallery(6);
-    }
-    &--3 .sub-offer  {
-      @include gallery(4);
-    }
-  }
 }
 

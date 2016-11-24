@@ -1,0 +1,24 @@
+{% for offer in offers %}
+{% if offer.offer-collection %}
+  <div class="row__column offer offer-{{ offer.id }} box-shadow">
+
+    <a class="js-launch-modal offer__link" data-offer-id="{{ offer.id }}" href="{{offer.link}}"></a>
+
+    <div class="offer__image">
+      <div class="offer__btn">
+        <span class="offer__btn-target"><img src="{{ site.baseurl }}/img/content/offer_btn.png" alt="plus icon"></span>
+        <span class="offer__btn-copy">Read more</span>
+      </div>
+      <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/email/offer-{{ offer.id }}.jpg" alt="{{offer.title}}">
+    </div>
+
+    <div class="row offer__content">
+      <h4 class="offer__title ">{{ offer.title }}</h4>
+      <p class="offer__description">
+        {{offer.short-copy | strip_html | truncate: 90}}
+      </p>
+    </div>
+
+  </div>
+{% endif %}
+{% endfor %}

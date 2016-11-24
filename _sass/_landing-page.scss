@@ -109,8 +109,29 @@
     font-size: .8em;
     color: $dml-gray;
   }
+
+  // smaller variant of offer module for sub-offers
+  &--small {
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
 }
 
+// -------- container for sub-offers in modal --------
+
+.sub-offers {
+  border-top: 1px solid #c9dadc;
+  border-bottom: 1px solid #c9dadc;
+  padding-top: 2em;
+  margin-top: 2em !important;
+  .offer {
+    box-shadow: none;
+    &__image img {
+      border: 1px solid #e8eeef;
+    }
+    &__content { padding: 10px 0; }
+  }
+}
 
 // -------- offer expired message for edition --------
 

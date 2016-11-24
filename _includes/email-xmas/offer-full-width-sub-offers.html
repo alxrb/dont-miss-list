@@ -8,7 +8,7 @@
 <!-- FULL WIDTH OFFER -->
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-      <td bgcolor="#ffffff" align="center" style="padding-bottom: 44px;">
+      <td bgcolor="#e9f1f2" align="center" style="padding-bottom: 44px;">
         <table border="0" cellpadding="0" cellspacing="0" width="600"class="responsive-table">
           <tr>
             <td>
@@ -18,7 +18,11 @@
                 <!-- OFFER IMAGE -->
                 <tr>
                   <td>
+                    {% if item.email-link or item.link %}
                     <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}"><img class="img-max" width="600" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" /></a>
+                    {% else %}
+                    <img class="img-max" width="600" src="{{ site.baseurl }}/img/edition/{{ edition }}/email/offer-{{ item.id }}.jpg" alt="{{ item.title }}" style="display: block;" />
+                    {% endif %}
                   </td>
                 </tr>
                 <!-- OFFER CONTENT WRAP -->
@@ -38,6 +42,7 @@
                         </td>
                       </tr>
                       <!-- OFFER BUTTON -->
+                      {% if item.link or item.email-link %}
                       <tr>
                         <td align="center" style="width: 100%;">
                           <a href="{% if item.email-link %} {{ item.email-link }} {% else %} {{ item.link }} {% endif %}" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 13px; letter-spacing: .2em; font-weight: 600; background-color: #217cef; border-top: 12px solid #217cef; border-bottom: 12px solid #217cef; border-left: 53px solid #217cef; border-right: 53px solid #217cef; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; display: inline-block; text-transform: uppercase; text-decoration: none;">
@@ -49,6 +54,7 @@
                           </a>
                         </td>
                       </tr>
+                      {% endif %}
                       {% if item.email-sub-offers %}{{ item.email-sub-offers }}{% endif %}
                     </table>
                   </td>

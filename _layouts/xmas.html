@@ -57,7 +57,7 @@ not sure how often we are going to do these special editions, but I'm just treat
       {% endif %}
 
       <div class="section row row--padding row--no-margin">
-        <div class="row row--columns-4-4-4-gutters">
+        <div class="row row--columns-6-6-gutters">
           {% include landing-page/offer.html %}
         </div>
       </div>
@@ -82,6 +82,7 @@ not sure how often we are going to do these special editions, but I'm just treat
                     {{offer.title}}
                   </div>
                 </div>
+                {% if offer.link or offer.email-link %}
                 <div class="row__column modal__top-cta">
                   {% if current-edition.active-offers %}
                     {% include landing-page/btn.html class-modifier="top" %}
@@ -89,27 +90,32 @@ not sure how often we are going to do these special editions, but I'm just treat
                     {% include landing-page/btn-disabled.html %}
                   {% endif %}
                 </div>
+                {% endif %}
               </div>
               {% if current-edition.active-offers %}
                 <div class="js-offer-countdown countdown row" data-year="{{offer.expires-date | date: '%Y' }}" data-month="{{offer.expires-date | date: '%m' }}" data-day="{{offer.expires-date | date: '%d' }}"></div>
               {% endif %}
               <div class="row modal__description">
                 <div class="row">
-                  {{offer.long-copy}}
+                  {{ offer.long-copy | liquify }}
                 </div>
               </div>
               {% if current-edition.active-offers %}
               <div class="row align-center">
-                {% include landing-page/btn.html class-modifier="bottom" size="large" %}
+                {% if offer.link or offer.email-link %}
+                  {% include landing-page/btn.html class-modifier="bottom" size="large" %}
+                {% endif %}
                 <div class="js-offer-countdown countdown row" data-year="{{offer.expires-date | date: '%Y' }}" data-month="{{offer.expires-date | date: '%m' }}" data-day="{{offer.expires-date | date: '%d' }}"></div>
               </div>
               {% else %}
                 <hr class="row">
               {% endif %}
+              {% if offer.terms-and-conditions %}
               <div class="row modal__terms">
                 <h4>Terms &amp; Conditions</h4>
                 {{offer.terms-and-conditions}}
               </div>
+              {% endif %}
             </div>
           </div>
         {% endfor %}

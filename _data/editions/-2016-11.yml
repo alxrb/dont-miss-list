@@ -2,50 +2,123 @@ active-offers: true
 name: November 2016
 date: 25-11-2016
 link: /2016/11
-subject-line: Xmas gift list
-description: Here’s October’s edition of our top picks – an unmissable mix of unforgettable days out and incomparable luxury escapes – for member’s only. From sunny villa holidays, luxury cottages, to catching the best shows on the West End, we’ve curated deals and offers that we think you need to know about. Because let’s face it; the days are drawing in as the nights get longer, it’s cold, and Christmas is still too many days away. We all need a November pick me up!
-short-description: Here’s October’s edition of our top picks – an unmissable mix of unforgettable days out and incomparable luxury escapes – for member’s only. From sunny villa holidays, luxury cottages, to catching the best shows on the West End, we’ve curated deals and offers that we think you need to know about.
+subject-line: Don’t miss our festive roundup of unmissable treats and jovial savings ready for the holidays
+description: Here’s the Christmas edition of our top picks – an unmissable mix of festive fun and glamorous gift ideas – for member’s only. Our curation of yuletide treats will make the Christmas shop a pleasure, offering inspired gift ideas and hampers and sets to ensure you enjoy a rejuvenating and luxurious holiday time.
+short-description: Here’s the Christmas edition of our top picks – an unmissable mix of festive fun and glamorous gift ideas – for member’s only. Our curation of yuletide treats will make the Christmas shop a pleasure, offering inspired gift ideas and hampers and sets to ensure you enjoy a rejuvenating and luxurious holiday time.
+
+
 
 articles:
-  - id: lima
-    title: Explore Peru's Dramatic landscapes & bustling cityscapes
-    link: https://ad.doubleclick.net/ddm/clk/311010010;138765607;l
-  - id: cornwall
-    title: 13 reasons to visit Cornwall in autumn and winter
-    link: http://blog.secretescapes.com/2016/09/15/13-things-cornwall-cold-weather-autumn-winter/
+  - id: christmas
+    title: The most festive things to do in London this Christmas
+    link: http://blog.secretescapes.com/2016/11/10/best-things-london-christmas/
+  - id: weswap
+    title: Be a savvy traveller over the festive period and beyond
+    link: https://www.weswap.com/blog/news/travel-money-options-compared-weswap-vs-travel-cash-debit-prepaid-cards/
+
+
 
 offers:
-
-  - id: offer-2-col
-    brand: unknown
-    expires-date: 10-12-2016
-    title: Offer with 2 sub offers
-    short-copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis.
+  - id: harveynichols
+    brand: HarveyNichols
+    expires-date: 22-12-2016
+    offer-collection: true
+    title: Foodie treats, tasty tipples and presents to pamper and preen.
+    short-copy: >
+      With a Harvey Nichols hamper, it’s what’s inside that counts. Make someone’s Christmas this year with our brilliantly indulgent Hamper Collection and enjoy the added bonus of free, named-day delivery on food and drink selections.
     long-copy: >
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis. Consectetur ut doloribus veniam exercitationem laboriosam ea vero commodi veritatis molestias! Distinctio natus debitis quae rem, quas, recusandae quia non quos voluptate impedit suscipit dicta, expedita sequi veniam porro. Nostrum culpa adipisci tenetur animi! Saepe incidunt ex dicta adipisci minus dolores quis, quam libero quae? Fugiat explicabo, voluptatum commodi, saepe placeat corrupti sapiente!</p>
-      <p>Fugiat eveniet tempora consectetur nisi, facilis aperiam non enim officia fugit praesentium quae modi, pariatur placeat neque at, optio, deserunt repellat quos maxime sunt beatae ratione! Sed quo nemo voluptas laudantium ad error aliquam earum natus dolorem optio soluta, maxime temporibus nisi, est vero, quisquam perferendis et dicta voluptatem nam eum nulla. Eum, amet quidem aut repudiandae, porro molestias reprehenderit illum, reiciendis sint, dolores tenetur! Voluptatum, quisquam, aut? Delectus ex earum eos, non ducimus. Magni culpa expedita, quia labore explicabo?</p>
-      <p>Beatae porro animi error, cum architecto culpa dolor sequi, voluptatum illum amet assumenda nemo. Et dolorum hic, beatae, reiciendis, magni modi nam rem quisquam id autem ut reprehenderit. Eum quam, nemo consequatur earum. Incidunt iste repellat adipisci ipsum deserunt quisquam saepe accusantium earum at quaerat perferendis praesentium, consequuntur deleniti laboriosam voluptatum officiis quasi. Asperiores, hic quas alias dignissimos deserunt numquam praesentium expedita, ratione aliquid animi at delectus tempore rem quos suscipit aliquam dolor eum rerum nostrum vel veritatis qui fugiat.</p>
-      <div class="sub-offers sub-offers--2">
-        <div class="sub-offer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi consequatur, tempora hic sunt exercitationem dolorem, minima laboriosam fugit velit obcaecati explicabo assumenda, rerum delectus. Alias autem, numquam omnis harum ut.</div>
-        <div class="sub-offer">Quas commodi illum voluptatum modi temporibus esse asperiores nostrum distinctio, ad porro cupiditate iste et eum deleniti assumenda a, laudantium dolore quisquam numquam maiores excepturi, minima natus. Ratione, ipsum, doloribus.</div>
+      <p>With a Harvey Nichols hamper, it’s what’s inside that counts. Make someone’s Christmas this year with our brilliantly indulgent Hamper Collection and enjoy the added bonus of free, named-day delivery on food and drink selections.</p>
+
+      <div class="row row--columns-4-4-4-gutters sub-offers">
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://www.harveynichols.com/brand/harvey-nichols/2333473-an-italian-afternoon/p2773479/"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer1.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">An Italian Afternoon - £55 </h4>
+            <p class="offer__description">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://www.harveynichols.com/brand/harvey-nichols/2333864-fancy-trimmings/p2773488/"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer2.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Fancy Trimmings - £90  </h4>
+            <p class="offer__description">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://www.harveynichols.com/brand/harvey-nichols/2334142-snowed-in/p2773472/"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer3.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Snowed In - £145 </h4>
+            <p class="offer__description">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://www.harveynichols.com/brand/harvey-nichols/2334159-party-starter/p2773494/"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer4.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Party Starter - £200 </h4>
+            <p class="offer__description">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://www.harveynichols.com/brand/harvey-nichols/2334219-festive-feast/p2773490/"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer5.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Festive Feast - £550 </h4>
+            <p class="offer__description">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://www.harveynichols.com/brand/harvey-nichols/2334276-bring-your-own-bar/p2773471/"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer6.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Bring Your Own Bar  - £1,000 </h4>
+            <p class="offer__description">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+        </div>
+
       </div>
-    link: "#landingpage-link"
-    email-link: "#email-link"
-    custom-cta: Custom CTA
-    terms-and-conditions: >
-      <ol>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quam, ratione perspiciatis consequuntur ab amet quis laudantium dolore rerum similique.</li>
-        <li>Maxime natus temporibus, ipsum facilis incidunt magnam, perferendis tempora sed nobis ducimus eius sint. Soluta omnis eos veniam, saepe animi!</li>
-        <li>Ex necessitatibus ad autem doloremque consequuntur dolorum voluptatum, consequatur, eaque neque laudantium omnis ducimus. Doloribus ratione, architecto eum ex ad.</li>
-        <li>Consectetur cupiditate rem, iste aut vel? Enim voluptates quas, in rem unde asperiores expedita cupiditate consectetur? Excepturi at sit repellat.</li>
-        <li>Accusantium suscipit, id deleniti, cumque dignissimos ut, obcaecati molestiae quasi dolore sit harum ducimus est alias incidunt iure! Illo, earum.</li>
-        <li>Id eligendi facilis iusto ea odio assumenda provident porro, veritatis consectetur recusandae vitae debitis veniam laudantium eveniet asperiores nostrum laboriosam.</li>
-        <li>Consequatur, quibusdam. Ad beatae recusandae eveniet adipisci nisi laudantium quo, maiores temporibus libero doloribus unde vero nemo. Amet, voluptates nobis.</li>
-        <li>Eum nesciunt est illo nihil sit, voluptates culpa nemo mollitia neque consequuntur soluta. Vero quis illum optio laboriosam nisi suscipit.</li>
-      </ol>
+
+    link: "http://www.harveynichols.com/gifts-hampers/"
+    email-link: "http://www.harveynichols.com/gifts-hampers/"
+    custom-cta: View all hampers
+    terms-and-conditions:
     email-sub-offers: >
       <tr>
-        <td>
+        <td style="padding-top: 10px;">
+
           <!-- ENTIRE ROW -->
           <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
             <tr>
@@ -53,9 +126,28 @@ offers:
                 <!-- FIRST COLUMN -->
                 <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
                   <tr>
-                    <td style="padding-top: 30px;">
+                    <td style="padding-top: 20px;">
                       <!-- CONTENT START -->
-                      content
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://www.harveynichols.com/brand/harvey-nichols/2333473-an-italian-afternoon/p2773479/">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-harveynichols-offer1.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://www.harveynichols.com/brand/harvey-nichols/2333473-an-italian-afternoon/p2773479/">An Italian Afternoon - £55</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
                       <!-- CONTENT END -->
                     </td>
                   </tr>
@@ -64,9 +156,28 @@ offers:
                 <!-- SECOND COLUMN -->
                 <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
                   <tr>
-                    <td style="padding-top: 30px;">
+                    <td style="padding-top: 20px;">
                       <!-- CONTENT START -->
-                      content
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://www.harveynichols.com/brand/harvey-nichols/2333864-fancy-trimmings/p2773488/">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-harveynichols-offer2.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://www.harveynichols.com/brand/harvey-nichols/2333864-fancy-trimmings/p2773488/">Fancy Trimmings - £90</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
                       <!-- CONTENT END -->
                     </td>
                   </tr>
@@ -76,84 +187,874 @@ offers:
             </tr>
           </table>
           <!-- ENTIRE ROW END -->
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://www.harveynichols.com/brand/harvey-nichols/2334142-snowed-in/p2773472/">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-harveynichols-offer3.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://www.harveynichols.com/brand/harvey-nichols/2334142-snowed-in/p2773472/">Snowed In - £145</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://www.harveynichols.com/brand/harvey-nichols/2334159-party-starter/p2773494/">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-harveynichols-offer4.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://www.harveynichols.com/brand/harvey-nichols/2334159-party-starter/p2773494/">Party Starter - £200</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://www.harveynichols.com/brand/harvey-nichols/2334219-festive-feast/p2773490/">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-harveynichols-offer5.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://www.harveynichols.com/brand/harvey-nichols/2334219-festive-feast/p2773490/">Festive Feast - £550</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://www.harveynichols.com/brand/harvey-nichols/2334276-bring-your-own-bar/p2773471/">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-harveynichols-offer6.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://www.harveynichols.com/brand/harvey-nichols/2334276-bring-your-own-bar/p2773471/">Bring Your Own Bar  - £1,000</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
         </td>
       </tr>
 
-  - id: offer-3-col
-    brand: unknown
-    expires-date: 15-12-2016
-    title: Offer with 3 sub offers
-    short-copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis.
+
+
+  - id: aromatherapy
+    brand: Aromatherapy
+    expires-date: 22-12-2016
+    title: Aromatherapy Associates Christmas Collection
+    short-copy: >
+      Experience a moment of peace in an English Winter Garden with 10% off Christmas Collection. Add code SECRET10
     long-copy: >
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sed delectus debitis voluptate reprehenderit necessitatibus, esse eaque recusandae, molestias ad soluta perferendis mollitia veritatis totam praesentium corporis. Consectetur ut doloribus veniam exercitationem laboriosam ea vero commodi veritatis molestias! Distinctio natus debitis quae rem, quas, recusandae quia non quos voluptate impedit suscipit dicta, expedita sequi veniam porro. Nostrum culpa adipisci tenetur animi! Saepe incidunt ex dicta adipisci minus dolores quis, quam libero quae? Fugiat explicabo, voluptatum commodi, saepe placeat corrupti sapiente!</p>
-      <p>Fugiat eveniet tempora consectetur nisi, facilis aperiam non enim officia fugit praesentium quae modi, pariatur placeat neque at, optio, deserunt repellat quos maxime sunt beatae ratione! Sed quo nemo voluptas laudantium ad error aliquam earum natus dolorem optio soluta, maxime temporibus nisi, est vero, quisquam perferendis et dicta voluptatem nam eum nulla. Eum, amet quidem aut repudiandae, porro molestias reprehenderit illum, reiciendis sint, dolores tenetur! Voluptatum, quisquam, aut? Delectus ex earum eos, non ducimus. Magni culpa expedita, quia labore explicabo?</p>
-      <p>Beatae porro animi error, cum architecto culpa dolor sequi, voluptatum illum amet assumenda nemo. Et dolorum hic, beatae, reiciendis, magni modi nam rem quisquam id autem ut reprehenderit. Eum quam, nemo consequatur earum. Incidunt iste repellat adipisci ipsum deserunt quisquam saepe accusantium earum at quaerat perferendis praesentium, consequuntur deleniti laboriosam voluptatum officiis quasi. Asperiores, hic quas alias dignissimos deserunt numquam praesentium expedita, ratione aliquid animi at delectus tempore rem quos suscipit aliquam dolor eum rerum nostrum vel veritatis qui fugiat.</p>
-      <div class="sub-offers sub-offers--3">
-        <div class="sub-offer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi consequatur, tempora hic sunt exercitationem dolorem, minima laboriosam fugit velit obcaecati explicabo assumenda, rerum delectus. Alias autem, numquam omnis harum ut.</div>
-        <div class="sub-offer">Quas commodi illum voluptatum modi temporibus esse asperiores nostrum distinctio, ad porro cupiditate iste et eum deleniti assumenda a, laudantium dolore quisquam numquam maiores excepturi, minima natus. Ratione, ipsum, doloribus.</div>
-        <div class="sub-offer">Pariatur vel maiores optio obcaecati facilis qui unde hic minus et laudantium, aliquam dolore, vitae aspernatur sit id quisquam repellendus incidunt blanditiis consectetur atque voluptatum ipsam asperiores. Quas, molestias, id.</div>
-      </div>
-    link: "#landingpage-link"
-    email-link: "#email-link"
-    custom-cta: Custom CTA
+      <p><strong>Experience a moment of peace in an English Winter Garden with 10% off Christmas Collection. Add code SECRET10</strong></p>
+      <p>This festive season, Aromatherapy Associates presents six beautiful hand drawn gift sets inspired by an English Winter Garden which offer the gift of time. Our mission is to allow everyone to take a moment of peace and experience the powers of aromatherapy and Mindful Beauty. Each one of our carefully selected luxurious gift sets will take you and your loved ones on a sensory journey, giving them time to stop and find balance in their busy lives. Enjoy 10% off for a limited time only.</p>
+    link: "http://www.aromatherapyassociates.com/christmas.html?utm_source=Secret%20Escapes%20newsletter&utm_medium=email&utm_campaign=Secret%20Escapes "
+    email-link: "http://www.aromatherapyassociates.com/christmas.html?utm_source=Secret%20Escapes%20newsletter&utm_medium=email&utm_campaign=Secret%20Escapes"
+    custom-cta: Explore Christmas
     terms-and-conditions: >
       <ol>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quam, ratione perspiciatis consequuntur ab amet quis laudantium dolore rerum similique.</li>
-        <li>Maxime natus temporibus, ipsum facilis incidunt magnam, perferendis tempora sed nobis ducimus eius sint. Soluta omnis eos veniam, saepe animi!</li>
-        <li>Ex necessitatibus ad autem doloremque consequuntur dolorum voluptatum, consequatur, eaque neque laudantium omnis ducimus. Doloribus ratione, architecto eum ex ad.</li>
-        <li>Consectetur cupiditate rem, iste aut vel? Enim voluptates quas, in rem unde asperiores expedita cupiditate consectetur? Excepturi at sit repellat.</li>
-        <li>Accusantium suscipit, id deleniti, cumque dignissimos ut, obcaecati molestiae quasi dolore sit harum ducimus est alias incidunt iure! Illo, earum.</li>
-        <li>Id eligendi facilis iusto ea odio assumenda provident porro, veritatis consectetur recusandae vitae debitis veniam laudantium eveniet asperiores nostrum laboriosam.</li>
-        <li>Consequatur, quibusdam. Ad beatae recusandae eveniet adipisci nisi laudantium quo, maiores temporibus libero doloribus unde vero nemo. Amet, voluptates nobis.</li>
-        <li>Eum nesciunt est illo nihil sit, voluptates culpa nemo mollitia neque consequuntur soluta. Vero quis illum optio laboriosam nisi suscipit.</li>
+        <li>Offer is valid from Thursday 24th November and ends midnight 24th December 2016. Must add code SECRET10 at checkout. Promotional prices are based on original RRP. 10% off only applies to the Christmas collection. No cash alternatives.</li>
       </ol>
+
+
+
+  - id: littlebrown
+    brand: LittleBrown
+    expires-date: 23-12-2016
+    offer-collection: true
+    title: Our favourite reads this Christmas
+    short-copy: >
+      Whether you are the book worm or you know someone that is, here are our top 4 page turners to enjoy over the festive season.
+    long-copy: >
+      <p><strong>Whether you are the book worm or you know someone that is, here are our top 4 page turners to enjoy over the festive season.</strong></p>
+
+      <div class="row row--columns-6-6-gutters sub-offers">
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.amazon.co.uk/Fantastic-Beasts-Where-Find-Them/dp/1408708981/ref=sr_1_1?ie=UTF8&qid=1478185711&sr=8-1&keywords=fantastic+beasts"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer1.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Fantastic Beasts and Where to Find Them</h4>
+            <p class="offer__description">
+              When Magizoologist Newt Scamander arrives in New York, he intends his stay to be just a brief stopover. However, when his magical case is misplaced and some of Newt's fantastic beasts escape, it spells trouble for everyone.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.amazon.co.uk/I-See-You-Clare-Mackintosh/dp/0751566047/ref=sr_1_1?ie=UTF8&qid=1478185645&sr=8-1&keywords=i+see+you"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer2.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">I See You</h4>
+            <p class="offer__description">
+              When Zoe Walker sees her photo in the classifieds section of a London newspaper, she is determined to find out why it's there. There's no explanation: just a grainy image, a website address and a phone number. Is it a mistake? A coincidence? Or is someone keeping track of every move they make...
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.amazon.co.uk/Thug-Kitchen-101-Fast/dp/0751562300/ref=sr_1_1?ie=UTF8&qid=1478185674&sr=8-1&keywords=thug+kitchen+101"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer3.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Thug Kitchen</h4>
+            <p class="offer__description">
+              Thug Kitchen 101 includes more than 100 easy and accessible recipes to give you a solid start toward a better diet. TK holds your hand and explains ingredients from chickpeas to nooch so you'll feel confident knowing exactly you're cooking.
+            </p>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.amazon.co.uk/Start-Your-Sock-Drawer-Cluttered/dp/0751566071/ref=sr_1_1?ie=UTF8&qid=1478185689&sr=8-1&keywords=start+with+your+sock+drawer"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer4.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Sock Drawer</h4>
+            <p class="offer__description">
+              Many of us feel increasingly overwhelmed by - and guilty about - the sheer amount of stuff packed into our homes. And we're starting to realise that being organised at home means being able to face the world with a clear mind and increased energy. It all starts at home.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    link:
+    email-link:
+    custom-cta:
+    terms-and-conditions:
     email-sub-offers: >
-      <!-- ENTIRE ROW -->
-      <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td>
-            <!-- FIRST TWO COLUMNS -->
-            <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="351">
-              <tr>
-                <td>
-                  <!-- FIRST COLUMN -->
-                  <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="168">
-                    <tr>
-                      <td style="padding-top: 30px;">
-                        <!-- CONTENT START -->
-                        content
-                        <!-- CONTENT END -->
-                      </td>
-                    </tr>
-                  </table>
-                  <!-- FIRST COLUMN END -->
-                  <!-- SECOND COLUMN -->
-                  <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="168">
-                    <tr>
-                      <td style="padding-top: 30px;">
-                        <!-- CONTENT START -->
-                        content
-                        <!-- CONTENT END -->
-                      </td>
-                    </tr>
-                  </table>
-                  <!-- SECOND COLUMN -->
-                </td>
-              </tr>
-            </table>
-            <!-- FIRST TWO COLUMNS END -->
-            <!-- THIRD COLUMN -->
-            <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="168">
-              <tr>
-                <td style="padding-top: 30px;">
-                  <!-- CONTENT START -->
-                  content
-                  <!-- CONTENT END -->
-                </td>
-              </tr>
-            </table>
-            <!-- THIRD COLUMN END -->
-          </td>
-        </tr>
-      </table>
-      <!-- ENTIRE ROW END -->
+      <tr>
+        <td style="padding-top: 10px;">
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.amazon.co.uk/Fantastic-Beasts-Where-Find-Them/dp/1408708981/ref=sr_1_1?ie=UTF8&qid=1478185711&sr=8-1&keywords=fantastic+beasts">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-littlebrown-offer1.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.amazon.co.uk/Fantastic-Beasts-Where-Find-Them/dp/1408708981/ref=sr_1_1?ie=UTF8&qid=1478185711&sr=8-1&keywords=fantastic+beasts">Fantastic Beasts and Where to Find Them</a>
+                            </td>
+                          </tr>
+                          <!-- OFFER COPY -->
+                          <tr>
+                            <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 0px;">
+                              When Magizoologist Newt Scamander arrives in New York, he intends his stay to be just a brief stopover. However, when his magical case is misplaced and some of Newt's fantastic beasts escape, it spells trouble for everyone.
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.amazon.co.uk/I-See-You-Clare-Mackintosh/dp/0751566047/ref=sr_1_1?ie=UTF8&qid=1478185645&sr=8-1&keywords=i+see+you">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-littlebrown-offer2.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.amazon.co.uk/I-See-You-Clare-Mackintosh/dp/0751566047/ref=sr_1_1?ie=UTF8&qid=1478185645&sr=8-1&keywords=i+see+you">I See You</a>
+                            </td>
+                          </tr>
+                          <!-- OFFER COPY -->
+                          <tr>
+                            <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 0px;">
+                              When Zoe Walker sees her photo in the classifieds section of a London newspaper, she is determined to find out why it's there. There's no explanation: just a grainy image, a website address and a phone number. Is it a mistake? A coincidence? Or is someone keeping track of every move they make...
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.amazon.co.uk/Thug-Kitchen-101-Fast/dp/0751562300/ref=sr_1_1?ie=UTF8&qid=1478185674&sr=8-1&keywords=thug+kitchen+101">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-littlebrown-offer3.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.amazon.co.uk/Thug-Kitchen-101-Fast/dp/0751562300/ref=sr_1_1?ie=UTF8&qid=1478185674&sr=8-1&keywords=thug+kitchen+101">Thug Kitchen</a>
+                            </td>
+                          </tr>
+                          <!-- OFFER COPY -->
+                          <tr>
+                            <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 0px;">
+                              Thug Kitchen 101 includes more than 100 easy and accessible recipes to give you a solid start toward a better diet. TK holds your hand and explains ingredients from chickpeas to nooch so you'll feel confident knowing exactly you're cooking.
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.amazon.co.uk/Start-Your-Sock-Drawer-Cluttered/dp/0751566071/ref=sr_1_1?ie=UTF8&qid=1478185689&sr=8-1&keywords=start+with+your+sock+drawer">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-littlebrown-offer4.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.amazon.co.uk/Start-Your-Sock-Drawer-Cluttered/dp/0751566071/ref=sr_1_1?ie=UTF8&qid=1478185689&sr=8-1&keywords=start+with+your+sock+drawer">Sock Drawer</a>
+                            </td>
+                          </tr>
+                          <!-- OFFER COPY -->
+                          <tr>
+                            <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 0px;">
+                              Many of us feel increasingly overwhelmed by - and guilty about - the sheer amount of stuff packed into our homes. And we're starting to realise that being organised at home means being able to face the world with a clear mind and increased energy. It all starts at home.
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+        </td>
+      </tr>
+
+
+
+  - id: serenataflowers
+    brand: Serenataflowers
+    expires-date: 22-12-2016
+    offer-collection: true
+    title: Add extra colour to their Christmas
+    short-copy: >
+      Christmas flowers invoke rosy glows and a winter wonderland of snowy shapes with warm reds, flaming oranges and crisp whites. Find your perfect bunch with Serenata Flowers, here’s a selection of our favourites.
+    long-copy: >
+      <p>Christmas flowers invoke rosy glows and a winter wonderland of snowy shapes with warm reds, flaming oranges and crisp whites. Find your perfect bunch with Serenata Flowers, here’s a selection of our favourites.</p>
+      <p>With Serenata flowers you get free delivery Monday to Sunday plus order as late as 10.00pm weekdays for next day delivery for those last minute gifts.</p>
+
+
+      <div class="row row--columns-6-6-gutters sub-offers">
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105899/christmas-rose-and-lily"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer1.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Bright reds and gorgeous gold are the favourite colours of the Christmas season </h4>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer2.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">A merry mix of wonderful seasonal colours, the perfect gift to wish your loved ones a Merry Christmas </h4>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107415/pure-love-gift-bag"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer3.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Beautiful Roses, delicate Gypsophila, exquisite Lisianthus arranged together in perfect harmony </h4>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer4.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Make sure you say everything that needs to be said with this stunning bouquet.</h4>
+          </div>
+        </div>
+
+      </div>
+
+    link: "https://www.serenataflowers.com/"
+    email-link: "https://www.serenataflowers.com/"
+    custom-cta: Buy now
+    terms-and-conditions:
+    email-sub-offers: >
+      <tr>
+        <td style="padding-top: 10px;">
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105899/christmas-rose-and-lily">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer1.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105899/christmas-rose-and-lily">Bright reds and gorgeous gold are the favourite colours of the Christmas season</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer2.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas">A merry mix of wonderful seasonal colours, the perfect gift to wish your loved ones a Merry Christmas</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107415/pure-love-gift-bag">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer3.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107415/pure-love-gift-bag">Beautiful Roses, delicate Gypsophila, exquisite Lisianthus arranged together in perfect harmony</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer4.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection">Make sure you say everything that needs to be said with this stunning bouquet.</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+        </td>
+      </tr>
+
+
+
+  - id: virginwines
+    brand: virginwines
+    expires-date: 22-12-2016
+    title: Save £70 on 12 stunning Christmas wines – £49.99 for Secret Escapes members
+    short-copy: >
+      As winter draws in, it’s time to think about filling the larder with indulgent yuletide produce. What better way to prepare for the heady build up to the 25th than by ordering a curated selection of boutique wines, with an exquisite range of fine bottles specially selected for the Christmas celebrations.
+    long-copy: >
+      <p>As winter draws in, it’s time to think about filling the larder with indulgent yuletide produce. What better way to prepare for the heady build up to the 25th than by ordering a curated selection of boutique wines, with an exquisite range of fine bottles specially selected for the Christmas celebrations.</p>
+      <p>Chosen especially for Secret Escapes members with Christmas celebrations in mind, you will enjoy classic and smooth Gran Reserva, crisp and refreshing Chardonnay, fruity Pinot Noir and that all important bottle of sparkling Prosecco.</p>
+      <p>From small get-togethers with family, to hosting dinner parties, or just kicking back on the sofa in front of a burning fire, each bottle promises to set the tone for a memorable evening.</p>
+      <p>With a bottle costing just £4.17, and a total saving of over £70, it’s the kind of Christmas saving that is a welcome gift in the run up to Christmas.</p>
+      <p>At just £49.99 for the case, this purchase also introduces you to the Virgin WineBank – with perks like free delivery and a personal wine advisor to help you select the perfect wines for you.</p>
+      <p><strong>Hurry! Only a limited stock available. To order visit Virgin Wines or call 0343 224 1001 and quote VA2824.</strong></p>
+    link: "https://www.virginwines.co.uk/promotions/full-width.jsp?ref=VA2824"
+    email-link: "https://www.virginwines.co.uk/promotions/full-width.jsp?ref=VA2824"
+    custom-cta: Find Out More
+    terms-and-conditions:
+
+
+
+  - id: southwest
+    brand: southwesttrains
+    expires-date: 12-12-2016
+    title: Stay a little longer this Christmas with South West Trains!
+    short-copy: >
+      Travel for £14.95 one-way (£5 for kids) to over 200 destinations until 11 December. But don't delay, book your ticket online up to a day in advance and start your adventure this Winter!
+    long-copy: >
+      <p><strong>Travel for £14.95 one-way (£5 for kids) to over 200 destinations until 11 December. But don't delay, book your ticket online up to a day in advance and start your adventure this Autumn! </strong></p>
+    link: "www.southwesttrains.co.uk/promotion"
+    email-link: "www.southwesttrains.co.uk/promotion"
+    custom-cta: Find Out More
+    terms-and-conditions: >
+      <ol>
+        <li>Terms, conditions and exclusions apply. <a href=”https://www.southwesttrains.co.uk/offers--days-out/offers/promotion/autumn-tcs/">https://www.southwesttrains.co.uk/offers--days-out/offers/promotion/autumn-tcs</a></li>
+      </ol>
+
+
+
+  - id: funzing
+    brand: Funzing
+    expires-date: 12-12-2016
+    offer-collection: true
+    title: Choose between hundreds of secret local experiences
+    short-copy: >
+      We have partnered up with Funzing to offer you the most creative and authentic events created by passionate Londoners and now you can check out for yourself and see why!
+    long-copy: >
+      <p>We have partnered up with Funzing to offer you the most creative and authentic events created by passionate Londoners, some refer to them as the 'Airbnb of Experiences' and now you can check out for yourself and see why!</p>
+      <p>Choose between hundreds of workshops, tours, lectures, foodie events and more - all curated and available to purchase for yourself or as an authentic Christmas gifts!</p>
+      <p>Fancy yourself a Potter for a day? How about sending a loved one to a Secret Graffiti experience? Check their events out to see what they're all about and spice up your festive season:</p>
+
+      <div class="row row--columns-3-3-3-3-gutters sub-offers">
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://uk.funzing.com/funz/6845?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=ChocoChristUK"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer1.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Join the Christmas Chocolate Club </h4>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://uk.funzing.com/funz/5309?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=PerfumeUK"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer2.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Create your own scent</h4>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://uk.funzing.com/funz/1680?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=IndianfoodUK"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer3.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Secret food tour</h4>
+          </div>
+        </div>
+
+        <div class="offer offer--small row__column">
+          <a class="offer__link" href="http://uk.funzing.com/funz/2272?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=PorksausageUK"></a>
+          <div class="offer__image">
+            <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer4.jpg">
+          </div>
+          <div class="row offer__content">
+            <h4 class="offer__title ">Make it yourself</h4>
+          </div>
+        </div>
+
+      </div>
+
+    link: "http://uk.funzing.com/whats-hot?utm_source=SecretEscapesUK&utm_medium=Category&utm_campaign=WhatshotUK"
+    email-link: "http://uk.funzing.com/whats-hot?utm_source=SecretEscapesUK&utm_medium=Category&utm_campaign=WhatshotUK"
+    custom-cta: Explore More
+    terms-and-conditions:
+    email-sub-offers: >
+      <tr>
+        <td style="padding-top: 10px;">
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://uk.funzing.com/funz/6845?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=ChocoChristUK">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-funzing-offer1.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://uk.funzing.com/funz/6845?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=ChocoChristUK">Join the Christmas Chocolate Club</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://uk.funzing.com/funz/5309?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=PerfumeUK">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-funzing-offer2.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://uk.funzing.com/funz/5309?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=PerfumeUK">Create your own scent</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+          <!-- ENTIRE ROW -->
+          <table class="responsive-table" align="center" width="534" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <!-- FIRST COLUMN -->
+                <table align="left" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://uk.funzing.com/funz/1680?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=IndianfoodUK">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-funzing-offer3.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://uk.funzing.com/funz/1680?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=IndianfoodUK">Secret food tour</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FIRST COLUMN END -->
+                <!-- SECOND COLUMN -->
+                <table align="right" border="0" cellspacing="0" cellpadding="0" class="responsive-table" width="258">
+                  <tr>
+                    <td style="padding-top: 20px;">
+                      <!-- CONTENT START -->
+                      <table class="responsive-table" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tbody>
+
+                          <!-- OFFER IMAGE -->
+                          <tr>
+                            <td>
+                              <a href="http://uk.funzing.com/funz/2272?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=PorksausageUK">
+                                <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-funzing-offer4.jpg" alt="" style="display: block;">
+                              </a>
+                            </td>
+                          </tr>
+                          <!-- OFFER TITLE -->
+                          <tr>
+                            <td style="padding: 10px 0 5px;">
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://uk.funzing.com/funz/2272?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=PorksausageUK">Make it yourself</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!-- CONTENT END -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- SECOND COLUMN END -->
+              </td>
+            </tr>
+          </table>
+          <!-- ENTIRE ROW END -->
+
+        </td>
+      </tr>
+
+
+
+  - id: prezzyboxxmas
+    brand: prezzybox
+    expires-date: 22-12-2016
+    title: Still stuck for ideas?
+    short-copy: >
+      Have no fear, Prezzybox have the complete collection of gifts to suit every taste, it’s your one stop shop for gifts.  Whether you are looking for a stocking filler, Secret Santa or the present of their dreams there is something for everyone.
+    long-copy: >
+      <p>Have no fear, Prezzybox have the complete collection of gifts to suit every taste, it’s your one stop shop for gifts.  Whether you are looking for a stocking filler, Secret Santa or the present of their dreams there is something for everyone.</p>
+    link: "http://www.prezzybox.com/?utm_source=secret_escapes&utm_campaign=secret_escapes_gift_guide&utm_medium=partnership"
+    email-link: "http://www.prezzybox.com/?utm_source=secret_escapes&utm_campaign=secret_escapes_gift_guide&utm_medium=partnership"
+    custom-cta: Explore More
+    terms-and-conditions:
+
+
+
