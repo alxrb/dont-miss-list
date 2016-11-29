@@ -115,6 +115,13 @@
     font-size: 13.5px;
     line-height: 1.6;
   }
+
+
+  &--vouchers {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 4em;
+  }
 }
 
 // -------- container for sub-offers in modal --------

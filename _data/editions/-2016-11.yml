@@ -23,7 +23,7 @@ offers:
     brand: HarveyNichols
     expires-date: 22-12-2016
     offer-collection: true
-    title: Foodie treats, tasty tipples and presents to pamper and preen.
+    title: Foodie treats, tasty tipples and presents to pamper and preen from Harvey Nichols.
     short-copy: >
       With a Harvey Nichols hamper, it’s what’s inside that counts. Make someone’s Christmas this year with our brilliantly indulgent Hamper Collection and enjoy the added bonus of free, named-day delivery on food and drink selections.
     long-copy: >
@@ -38,9 +38,6 @@ offers:
           </div>
           <div class="row offer__content">
             <h4 class="offer__title ">An Italian Afternoon - £55 </h4>
-            <p class="offer__description">
-              Aenean lacinia bibendum nulla sed consectetur.
-            </p>
           </div>
         </div>
 
@@ -51,9 +48,6 @@ offers:
           </div>
           <div class="row offer__content">
             <h4 class="offer__title ">Fancy Trimmings - £90  </h4>
-            <p class="offer__description">
-              Aenean lacinia bibendum nulla sed consectetur.
-            </p>
           </div>
         </div>
 
@@ -64,9 +58,6 @@ offers:
           </div>
           <div class="row offer__content">
             <h4 class="offer__title ">Snowed In - £145 </h4>
-            <p class="offer__description">
-              Aenean lacinia bibendum nulla sed consectetur.
-            </p>
           </div>
         </div>
 
@@ -77,9 +68,6 @@ offers:
           </div>
           <div class="row offer__content">
             <h4 class="offer__title ">Party Starter - £200 </h4>
-            <p class="offer__description">
-              Aenean lacinia bibendum nulla sed consectetur.
-            </p>
           </div>
         </div>
 
@@ -90,9 +78,6 @@ offers:
           </div>
           <div class="row offer__content">
             <h4 class="offer__title ">Festive Feast - £550 </h4>
-            <p class="offer__description">
-              Aenean lacinia bibendum nulla sed consectetur.
-            </p>
           </div>
         </div>
 
@@ -103,9 +88,6 @@ offers:
           </div>
           <div class="row offer__content">
             <h4 class="offer__title ">Bring Your Own Bar  - £1,000 </h4>
-            <p class="offer__description">
-              Aenean lacinia bibendum nulla sed consectetur.
-            </p>
           </div>
         </div>
 
@@ -336,9 +318,9 @@ offers:
     expires-date: 22-12-2016
     title: Aromatherapy Associates Christmas Collection
     short-copy: >
-      Experience a moment of peace in an English Winter Garden with 10% off Christmas Collection. Add code SECRET10
+      Experience a moment of peace in an English Winter Garden with 10% off the Christmas Collection. Add code SECRET10
     long-copy: >
-      <p><strong>Experience a moment of peace in an English Winter Garden with 10% off Christmas Collection. Add code SECRET10</strong></p>
+      <p><strong>Experience a moment of peace in an English Winter Garden with 10% off the Christmas Collection. Add code SECRET10</strong></p>
       <p>This festive season, Aromatherapy Associates presents six beautiful hand drawn gift sets inspired by an English Winter Garden which offer the gift of time. Our mission is to allow everyone to take a moment of peace and experience the powers of aromatherapy and Mindful Beauty. Each one of our carefully selected luxurious gift sets will take you and your loved ones on a sensory journey, giving them time to stop and find balance in their busy lives. Enjoy 10% off for a limited time only.</p>
     link: "http://www.aromatherapyassociates.com/christmas.html?utm_source=Secret%20Escapes%20newsletter&utm_medium=email&utm_campaign=Secret%20Escapes "
     email-link: "http://www.aromatherapyassociates.com/christmas.html?utm_source=Secret%20Escapes%20newsletter&utm_medium=email&utm_campaign=Secret%20Escapes"
@@ -350,15 +332,30 @@ offers:
 
 
 
+  - id: prezzyboxxmas
+    brand: prezzybox
+    expires-date: 22-12-2016
+    title: Still stuck for ideas?
+    short-copy: >
+      Have no fear, Prezzybox have the complete collection of gifts to suit every taste, it’s your one stop shop for gifts.  Whether you are looking for a stocking filler, Secret Santa or the present of their dreams there is something for everyone.
+    long-copy: >
+      <p>Have no fear, Prezzybox have the complete collection of gifts to suit every taste, it’s your one stop shop for gifts.  Whether you are looking for a stocking filler, Secret Santa or the present of their dreams there is something for everyone.</p>
+    link: "http://www.prezzybox.com/?utm_source=secret_escapes&utm_campaign=secret_escapes_gift_guide&utm_medium=partnership"
+    email-link: "http://www.prezzybox.com/?utm_source=secret_escapes&utm_campaign=secret_escapes_gift_guide&utm_medium=partnership"
+    custom-cta: Explore More
+    terms-and-conditions:
+
+
+
   - id: littlebrown
     brand: LittleBrown
     expires-date: 23-12-2016
     offer-collection: true
     title: Our favourite reads this Christmas
     short-copy: >
-      Whether you are the book worm or you know someone that is, here are our top 4 page turners to enjoy over the festive season.
+      Whether you are the book worm or you know someone that is, here are our top four page turners to enjoy over the festive season.
     long-copy: >
-      <p><strong>Whether you are the book worm or you know someone that is, here are our top 4 page turners to enjoy over the festive season.</strong></p>
+      <p><strong>Whether you are the book worm or you know someone that is, here are our top four page turners to enjoy over the festive season.</strong></p>
 
       <div class="row row--columns-6-6-gutters sub-offers">
 
@@ -370,7 +367,7 @@ offers:
           <div class="row offer__content">
             <h4 class="offer__title ">Fantastic Beasts and Where to Find Them</h4>
             <p class="offer__description">
-              When Magizoologist Newt Scamander arrives in New York, he intends his stay to be just a brief stopover. However, when his magical case is misplaced and some of Newt's fantastic beasts escape, it spells trouble for everyone.
+              Fantastic Beasts marks the screenwriting debut of J.K. Rowling, author of the beloved and internationally bestselling Harry Potter books. A feat of imagination and featuring a cast of remarkable characters and magical creatures, this is epic adventure-packed storytelling at its very best. Whether an existing fan or new to the wizarding world, this is a perfect addition for any film lover or reader's bookshelf.
             </p>
           </div>
         </div>
@@ -453,7 +450,7 @@ offers:
                           <!-- OFFER COPY -->
                           <tr>
                             <td style="color: #788586; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; line-height: 18px; letter-spacing: .015em; padding-bottom: 0px;">
-                              When Magizoologist Newt Scamander arrives in New York, he intends his stay to be just a brief stopover. However, when his magical case is misplaced and some of Newt's fantastic beasts escape, it spells trouble for everyone.
+                              Fantastic Beasts marks the screenwriting debut of J.K. Rowling, author of the beloved and internationally bestselling Harry Potter books. A feat of imagination and featuring a cast of remarkable characters and magical creatures, this is epic adventure-packed storytelling at its very best. Whether an existing fan or new to the wizarding world, this is a perfect addition for any film lover or reader's bookshelf.
                             </td>
                           </tr>
 
@@ -597,58 +594,58 @@ offers:
     offer-collection: true
     title: Add extra colour to their Christmas
     short-copy: >
-      Christmas flowers invoke rosy glows and a winter wonderland of snowy shapes with warm reds, flaming oranges and crisp whites. Find your perfect bunch with Serenata Flowers, here’s a selection of our favourites.
+      Christmas flowers invoke rosy glows and a winter wonderland of snowy shapes with warm reds, flaming oranges and crisp whites. Find your perfect bunch with SerenataFlowers.com, here’s a selection of our favourites.
     long-copy: >
-      <p>Christmas flowers invoke rosy glows and a winter wonderland of snowy shapes with warm reds, flaming oranges and crisp whites. Find your perfect bunch with Serenata Flowers, here’s a selection of our favourites.</p>
-      <p>With Serenata flowers you get free delivery Monday to Sunday plus order as late as 10.00pm weekdays for next day delivery for those last minute gifts.</p>
+      <p>Christmas flowers invoke rosy glows and a winter wonderland of snowy shapes with warm reds, flaming oranges and crisp whites. Find your perfect bunch with SerenataFlowers.com, here’s a selection of our favourites.</p>
+      <p>With SerenataFlowers.com you get free delivery Monday to Sunday plus order as late as 10.00pm weekdays for next day delivery for those last minute gifts.</p>
 
 
       <div class="row row--columns-6-6-gutters sub-offers">
 
         <div class="offer offer--small row__column">
-          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105899/christmas-rose-and-lily"></a>
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107008/christmas-glamour?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@"></a>
           <div class="offer__image">
             <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer1.jpg">
           </div>
           <div class="row offer__content">
-            <h4 class="offer__title ">Bright reds and gorgeous gold are the favourite colours of the Christmas season </h4>
+            <h4 class="offer__title ">Christmas Glamour - £24.99</h4>
           </div>
         </div>
 
         <div class="offer offer--small row__column">
-          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas"></a>
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/108081/perfect-pinks?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@"></a>
           <div class="offer__image">
             <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer2.jpg">
           </div>
           <div class="row offer__content">
-            <h4 class="offer__title ">A merry mix of wonderful seasonal colours, the perfect gift to wish your loved ones a Merry Christmas </h4>
+            <h4 class="offer__title ">Perfect Pinks - £19.99 </h4>
           </div>
         </div>
 
         <div class="offer offer--small row__column">
-          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107415/pure-love-gift-bag"></a>
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@"></a>
           <div class="offer__image">
             <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer3.jpg">
           </div>
           <div class="row offer__content">
-            <h4 class="offer__title ">Beautiful Roses, delicate Gypsophila, exquisite Lisianthus arranged together in perfect harmony </h4>
+            <h4 class="offer__title ">Merry Christmas - £24.99 </h4>
           </div>
         </div>
 
         <div class="offer offer--small row__column">
-          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection"></a>
+          <a class="offer__link" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@"></a>
           <div class="offer__image">
             <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer4.jpg">
           </div>
           <div class="row offer__content">
-            <h4 class="offer__title ">Make sure you say everything that needs to be said with this stunning bouquet.</h4>
+            <h4 class="offer__title ">Reflection – £39.99 </h4>
           </div>
         </div>
 
       </div>
 
-    link: "https://www.serenataflowers.com/"
-    email-link: "https://www.serenataflowers.com/"
+    link: "https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/christmas?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@"
+    email-link: "https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/christmas?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@"
     custom-cta: Buy now
     terms-and-conditions:
     email-sub-offers: >
@@ -670,7 +667,7 @@ offers:
                           <!-- OFFER IMAGE -->
                           <tr>
                             <td>
-                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105899/christmas-rose-and-lily">
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107008/christmas-glamour?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">
                                 <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer1.jpg" alt="" style="display: block;">
                               </a>
                             </td>
@@ -678,7 +675,7 @@ offers:
                           <!-- OFFER TITLE -->
                           <tr>
                             <td style="padding: 10px 0 5px;">
-                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105899/christmas-rose-and-lily">Bright reds and gorgeous gold are the favourite colours of the Christmas season</a>
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107008/christmas-glamour?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">Christmas Glamour - £24.99</a>
                             </td>
                           </tr>
 
@@ -700,7 +697,7 @@ offers:
                           <!-- OFFER IMAGE -->
                           <tr>
                             <td>
-                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas">
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/108081/perfect-pinks?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">
                                 <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer2.jpg" alt="" style="display: block;">
                               </a>
                             </td>
@@ -708,7 +705,7 @@ offers:
                           <!-- OFFER TITLE -->
                           <tr>
                             <td style="padding: 10px 0 5px;">
-                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas">A merry mix of wonderful seasonal colours, the perfect gift to wish your loved ones a Merry Christmas</a>
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/108081/perfect-pinks?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">Perfect Pinks - £19.99 </a>
                             </td>
                           </tr>
 
@@ -739,7 +736,7 @@ offers:
                           <!-- OFFER IMAGE -->
                           <tr>
                             <td>
-                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107415/pure-love-gift-bag">
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">
                                 <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer3.jpg" alt="" style="display: block;">
                               </a>
                             </td>
@@ -747,7 +744,7 @@ offers:
                           <!-- OFFER TITLE -->
                           <tr>
                             <td style="padding: 10px 0 5px;">
-                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107415/pure-love-gift-bag">Beautiful Roses, delicate Gypsophila, exquisite Lisianthus arranged together in perfect harmony</a>
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/107002/merry-christmas?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">Merry Christmas - £24.99 </a>
                             </td>
                           </tr>
 
@@ -769,7 +766,7 @@ offers:
                           <!-- OFFER IMAGE -->
                           <tr>
                             <td>
-                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection">
+                              <a href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">
                                 <img class="img-max" style="border: 1px solid #e8e8e8;" width="258" src="/dont-miss-list/img/edition/-2016-11/email/offer-serenataflowers-offer4.jpg" alt="" style="display: block;">
                               </a>
                             </td>
@@ -777,7 +774,7 @@ offers:
                           <!-- OFFER TITLE -->
                           <tr>
                             <td style="padding: 10px 0 5px;">
-                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection">Make sure you say everything that needs to be said with this stunning bouquet.</a>
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="https://www.serenataflowers.com/en/uk/flowers/next-day-delivery/product/105422/reflection?utm_source=sescapes&utm_medium=email&utm_campaign=email%3Apartner&utm_content=sf-uk%7Cgb%3Aen%7Cflower%7Cemail%3Apartner%7Csescapes-2016-11-24&utm_term=@EMAIL@">Reflection – £39.99 </a>
                             </td>
                           </tr>
 
@@ -823,15 +820,15 @@ offers:
     expires-date: 12-12-2016
     title: Stay a little longer this Christmas with South West Trains!
     short-copy: >
-      Travel for £14.95 one-way (£5 for kids) to over 200 destinations until 11 December. But don't delay, book your ticket online up to a day in advance and start your adventure this Winter!
+      Travel for £14.95 one-way (£5 for kids) to over 200 destinations until 11th December. But don't delay, book your ticket online up to a day in advance and start your adventure this Winter!
     long-copy: >
-      <p><strong>Travel for £14.95 one-way (£5 for kids) to over 200 destinations until 11 December. But don't delay, book your ticket online up to a day in advance and start your adventure this Autumn! </strong></p>
-    link: "www.southwesttrains.co.uk/promotion"
-    email-link: "www.southwesttrains.co.uk/promotion"
+      <p><strong>Travel for £14.95 one-way (£5 for kids) to over 200 destinations until 11th December. But don't delay, book your ticket online up to a day in advance and start your adventure this Autumn! </strong></p>
+    link: "https://www.southwesttrains.co.uk/promotion"
+    email-link: "https://www.southwesttrains.co.uk/promotion"
     custom-cta: Find Out More
     terms-and-conditions: >
       <ol>
-        <li>Terms, conditions and exclusions apply. <a href=”https://www.southwesttrains.co.uk/offers--days-out/offers/promotion/autumn-tcs/">https://www.southwesttrains.co.uk/offers--days-out/offers/promotion/autumn-tcs</a></li>
+        <li>Terms, conditions and exclusions apply. <a href='https://www.southwesttrains.co.uk/offers--days-out/offers/promotion/autumn-tcs/'>https://www.southwesttrains.co.uk/offers--days-out/offers/promotion/autumn-tcs</a></li>
       </ol>
 
 
@@ -842,7 +839,7 @@ offers:
     offer-collection: true
     title: Choose between hundreds of secret local experiences
     short-copy: >
-      We have partnered up with Funzing to offer you the most creative and authentic events created by passionate Londoners and now you can check out for yourself and see why!
+      We have partnered up with <a href="http://uk.funzing.com/whats-hot?utm_source=SecretEscapesUK&utm_medium=Category&utm_campaign=WhatshotUK">Funzing</a> to offer you the most creative and authentic events created by passionate Londoners and now you can check out for yourself and see why!
     long-copy: >
       <p>We have partnered up with Funzing to offer you the most creative and authentic events created by passionate Londoners, some refer to them as the 'Airbnb of Experiences' and now you can check out for yourself and see why!</p>
       <p>Choose between hundreds of workshops, tours, lectures, foodie events and more - all curated and available to purchase for yourself or as an authentic Christmas gifts!</p>
@@ -876,7 +873,7 @@ offers:
             <img src="{{ site.baseurl }}/img/edition/{{ page.edition }}/offer-{{ offer.id }}-offer3.jpg">
           </div>
           <div class="row offer__content">
-            <h4 class="offer__title ">Secret food tour</h4>
+            <h4 class="offer__title ">Secret Indian food tour</h4>
           </div>
         </div>
 
@@ -992,7 +989,7 @@ offers:
                           <!-- OFFER TITLE -->
                           <tr>
                             <td style="padding: 10px 0 5px;">
-                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://uk.funzing.com/funz/1680?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=IndianfoodUK">Secret food tour</a>
+                              <a style="color: #384f51; text-decoration:none; font-family: Helvetica, Arial, sans-serif, 'Roboto'; font-size: 15px; line-height: 19px; letter-spacing: .025em; font-weight: 700;" href="http://uk.funzing.com/funz/1680?utm_source=SecretEscapesUK&utm_medium=Funz&utm_campaign=IndianfoodUK">Secret Indian food tour</a>
                             </td>
                           </tr>
 
@@ -1040,21 +1037,6 @@ offers:
 
         </td>
       </tr>
-
-
-
-  - id: prezzyboxxmas
-    brand: prezzybox
-    expires-date: 22-12-2016
-    title: Still stuck for ideas?
-    short-copy: >
-      Have no fear, Prezzybox have the complete collection of gifts to suit every taste, it’s your one stop shop for gifts.  Whether you are looking for a stocking filler, Secret Santa or the present of their dreams there is something for everyone.
-    long-copy: >
-      <p>Have no fear, Prezzybox have the complete collection of gifts to suit every taste, it’s your one stop shop for gifts.  Whether you are looking for a stocking filler, Secret Santa or the present of their dreams there is something for everyone.</p>
-    link: "http://www.prezzybox.com/?utm_source=secret_escapes&utm_campaign=secret_escapes_gift_guide&utm_medium=partnership"
-    email-link: "http://www.prezzybox.com/?utm_source=secret_escapes&utm_campaign=secret_escapes_gift_guide&utm_medium=partnership"
-    custom-cta: Explore More
-    terms-and-conditions:
 
 
 
